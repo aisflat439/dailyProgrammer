@@ -1,8 +1,8 @@
 'use strict'
 
 function getFinishPosition(position) {
-  if (position === 11) {
-    return "11th place";
+  if ((position % 100) === 11) {
+    return position + "th place";
   }
 
   let finishString = "" + position;
@@ -41,3 +41,5 @@ console.log("The next line should be 33rd place");
 console.log(getFinishPosition(33));
 console.log("The next line should be 5th place");
 console.log(getFinishPosition(5));
+console.log("The next line should be 211th place");
+console.log(getFinishPosition(211));

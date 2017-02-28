@@ -1,7 +1,7 @@
 'use strict'
 
 function getFinishPosition(position) {
-  if ((position % 100) === 11) {
+  if ((position % 100) === 11 || (position >= 10 && position <= 13)) {
     return position + "th place";
   }
 
@@ -31,15 +31,6 @@ function appendCorrectly(num) {
   return correctStringValue;
 }
 
-console.log("The next line should be 11th place");
-console.log(getFinishPosition(11));
-console.log("The next line should be 21st place");
-console.log(getFinishPosition(21));
-console.log("The next line should be 4th place");
-console.log(getFinishPosition(4));
-console.log("The next line should be 33rd place");
-console.log(getFinishPosition(33));
-console.log("The next line should be 5th place");
-console.log(getFinishPosition(5));
-console.log("The next line should be 211th place");
-console.log(getFinishPosition(211));
+for (let i = 1; i < 111; i++){
+  console.log(getFinishPosition(i));
+};

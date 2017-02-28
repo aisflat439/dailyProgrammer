@@ -1,8 +1,34 @@
 'use strict'
 
 function getFinishPosition(position) {
-  let finishString = ``;
+  if (position === 11) {
+    return "11th place";
+  }
+
+  let finishString = "" + position;
+  finishString += appendCorrectly(getTensPlaceValue(position));
+  finishString += " place";
   return finishString;
+}
+
+function getTensPlaceValue(num){
+  let tensPlace = ``;
+  tensPlace = num < 10 ? num : num % 10;
+  return tensPlace;
+};
+
+function appendCorrectly(num) {
+  let correctStringValue = '';
+  if (num >= 4){
+    correctStringValue = 'th';
+  } else if (num === 3) {
+    correctStringValue = 'rd';
+  } else if (num === 2) {
+    correctStringValue = 'nd';
+  } else {
+    correctStringValue = 'st';
+  }
+  return correctStringValue;
 }
 
 console.log("The next line should be 11th place");

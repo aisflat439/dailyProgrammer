@@ -1,5 +1,5 @@
 Today's daily programmer challenge is to print a marathon finishers place in English. Your program should take an non decimal input `getFinishPosition(11)` and return `11th place`, `getFinishPosition(21)` and return `21st place`, `getFinishPosition(4)` and return `4th place`, and `getFinishPosition(33)` and return `33rd place`.
-Please DM me with ideas for future problems. When you have completed it post a link to your solution.
+Please DM me with ideas for future problems. When you have completed it post a link to your solution. No need to go over 99 finishers, unless you want to.
 
 *if you have a question about someones solution please use a thread under their posted link*
 

@@ -25,12 +25,14 @@ function appendCorrectly(num) {
     correctStringValue = 'rd';
   } else if (num === 2) {
     correctStringValue = 'nd';
+  } else if (num === 0) {
+    correctStringValue = 'th';
   } else {
     correctStringValue = 'st';
   }
   return correctStringValue;
 }
 
-for (let i = 1; i < 111; i++){
+for (let i = 1; i <= 111; i++){
   console.log(getFinishPosition(i));
 };

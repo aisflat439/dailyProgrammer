@@ -1,3 +1,22 @@
+Today's daily programmer challenge is to test a magic square. This challenge is stolen verbatim from r/dailyprogrammer. A 3x3 magic square is a 3x3 grid of the numbers 1-9 such that each row, column, and major diagonal adds up to 15. Here's an example:
+```
+8 1 6
+3 5 7
+4 9 2
+```
+When given the inputs arrays, you should get:
+[8, 1, 6, 3, 5, 7, 4, 9, 2] => true
+[2, 7, 6, 9, 5, 1, 4, 3, 8] => true
+[3, 5, 7, 8, 1, 6, 4, 9, 2] => false
+[8, 1, 6, 7, 5, 3, 4, 9, 2] => false
+
+Please DM me with ideas for future problems. When you have completed it post a link to your solution. No need to go over 99 finishers, unless you want to.
+
+*if you have a question about someones solution please use a thread under their posted link*
+
+Happy Tuesday!
+
+
 Today's daily programmer challenge is to print a marathon finishers place in English. Your program should take an non decimal input `getFinishPosition(11)` and return `11th place`, `getFinishPosition(21)` and return `21st place`, `getFinishPosition(4)` and return `4th place`, and `getFinishPosition(33)` and return `33rd place`.
 Please DM me with ideas for future problems. When you have completed it post a link to your solution. No need to go over 99 finishers, unless you want to.
 

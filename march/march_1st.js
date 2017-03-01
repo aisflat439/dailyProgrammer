@@ -9,7 +9,7 @@ const magicNumber = 15;
 function magicBoxSolver(magicBox) {
   var mb = true;
   Object.values(magicBox).forEach(row => {
-    // console.log(row);
+    // console.log(`Do work on ${row}`);
     let valueOfRow = row.reduce((a, b) => {
       return a + b;
     });

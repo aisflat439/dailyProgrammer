@@ -1,3 +1,15 @@
+The word `chimps` is an example of a word that's in alphabetical order. Write a program that prints out if the word is in alphabetical order. For bonus make it test backwards too!
+
+`[abort, times, alloy, taught, arrow, know, below, onscreen, berry, idea, cello, asked, deist, worlds, feint, best, floss, suggest, hilly, hippy]`
+
+Please DM me with ideas for future problems. When you have completed it post a link to your solution.
+
+*if you have a question about someones solution please use a thread under their posted link*
+
+Happy Thursday!
+
+
+
 Today's daily programmer challenge is to test a magic square. This challenge is stolen verbatim from r/dailyprogrammer. A 3x3 magic square is a 3x3 grid of the numbers 1-9 such that each row, column, and major diagonal adds up to 15. Here's an example:
 ```
 8 1 6
@@ -10,7 +22,7 @@ When given the inputs arrays, you should get:
 [3, 5, 7, 8, 1, 6, 4, 9, 2] => false
 [8, 1, 6, 7, 5, 3, 4, 9, 2] => false
 
-Please DM me with ideas for future problems. When you have completed it post a link to your solution. No need to go over 99 finishers, unless you want to.
+Please DM me with ideas for future problems. When you have completed it post a link to your solution.
 
 *if you have a question about someones solution please use a thread under their posted link*
 

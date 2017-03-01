@@ -28,6 +28,9 @@ function MagicBox(array){
   this.bottom = [array[6], array[7], array[8]];
   this.diagonalBT = [array[6], array[4], array[2]];
   this.diagonalTB = [array[0], array[4], array[8]];
+  this.column1 = [array[0], array[3], array[6]];
+  this.column2 = [array[1], array[4], array[7]];
+  this.column3 = [array[2], array[5], array[8]];
 }
 
 let mb1 = new MagicBox([8, 1, 6, 3, 5, 7, 4, 9, 2]);

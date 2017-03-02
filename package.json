@@ -1,0 +1,22 @@
+{
+  "name": "dailyprogrammer",
+  "version": "1.0.0",
+  "description": "a way to serve up daily programmers",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aisflat439/dailyProgrammer.git"
+  },
+  "author": "devin fitzsimons",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aisflat439/dailyProgrammer/issues"
+  },
+  "homepage": "https://github.com/aisflat439/dailyProgrammer#readme",
+  "dependencies": {
+    "express": "^4.15.0"
+  }
+}

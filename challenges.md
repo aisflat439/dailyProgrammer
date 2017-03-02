@@ -1,3 +1,11 @@
+Happy Friday. Time for the Friday Challenge! Get [this data csv]() and get ready to do some work! You're helping a friend relocate to Sacramento and they want to know which house offers the best price per square foot. *No problem?* Bonus challenge: Write a program that returns the best price per square foot for Northernmost, Southernmost, Easternmost or Westernmost homes.
+
+Please DM me with ideas for future problems. When you have completed it post a link to your solution.
+
+*if you have a question about someones solution please use a thread under their posted link*
+
+Happy Thursday!
+
 The word `chimps` is an example of a word that's in alphabetical order. Write a program that prints out if the word is in alphabetical order. For bonus make it test backwards too!
 
 `[abort, times, alloy, taught, arrow, know, below, onscreen, berry, idea, cello, asked, deist, worlds, feint, best, floss, suggest, hilly, hippy]`

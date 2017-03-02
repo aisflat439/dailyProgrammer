@@ -4,7 +4,6 @@ Please DM me with ideas for future problems. When you have completed it post a l
 
 *if you have a question about someones solution please use a thread under their posted link*
 
-Happy Thursday!
 
 The word `chimps` is an example of a word that's in alphabetical order. Write a program that prints out if the word is in alphabetical order. For bonus make it test backwards too!
 

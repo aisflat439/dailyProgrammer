@@ -1,4 +1,4 @@
-Happy Friday. Time for the Friday Challenge! Get [this data csv]() and get ready to do some work! You're helping a friend relocate to Sacramento and they want to know which house offers the best price per square foot. *No problem?* Bonus challenge: Write a program that returns the best price per square foot for Northernmost, Southernmost, Easternmost or Westernmost homes.
+Happy Friday. Time for the Friday Challenge! Visit (https://github.com/aisflat439/dailyProgrammer/blob/master/data/realEstate.csv) and grab the CSV and get ready to do some work! You're helping a friend relocate to Sacramento and they want to know which house offers the best price per square foot. *No problem?* Bonus challenge: Write a program that returns the best price per square foot for Northernmost, Southernmost, Easternmost or Westernmost homes.
 
 Please DM me with ideas for future problems. When you have completed it post a link to your solution.
 

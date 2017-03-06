@@ -1,4 +1,4 @@
-Happy Monday! This coding challenge showed up in my DM's! Have you sent me a DM with a coding challenge yet? You totes should.
+Happy Tuesday! This coding challenge showed up in my DM's! Have you sent me a DM with a coding challenge yet? You totes should.
 Coding Test : Hamming Distance
 Write a program that can calculate the Hamming distance between two DNA strands.
 A mutation is simply a mistake that occurs during the creation or copying of a nucleic acid, in particular DNA. Because nucleic acids are vital to cellular functions, mutations tend to cause a ripple effect throughout the cell. Although mutations are technically mistakes, a very rare mutation may equip the cell with a beneficial attribute. In fact, the macro effects of evolution are attributable by the accumulated result of beneficial microscopic mutations over many generations.
@@ -9,6 +9,14 @@ This is called the “Hamming Distance”.
     CATCGTAATGACGGCCT
     ^ ^ ^  ^ ^    ^^
 The Hamming distance between these two DNA strands is 7.
+
+Please DM me with ideas for future problems. When you have completed it post a link to your solution.
+
+*if you have a question about someones solution please use a thread under their posted link*
+
+Happy Monday!
+
+There are N+1 parking spots, numbered from 0 to N. There are N cars numbered from 1 to N parked in various parking spots with one left empty. Reorder the cars so that car #1 is in spot #1, car #2 is in spot #2 and so on. Spot #0 will remain empty. The only allowed operation is to take a car and move it to the free spot.
 
 Please DM me with ideas for future problems. When you have completed it post a link to your solution.
 

@@ -1,3 +1,32 @@
+Happy Friday. Sorry for the delay in posting this! This one is stolen from r/dailyProgrammer as well.
+
+Nearly everyone is familiar with the factorial operator in math. 5! yields 120 because factorial means "multiply successive terms where each are one less than the previous":
+```5! -> 5 * 4 * 3 * 2 * 1 -> 120```
+
+Fair enough.
+Now let's reverse it. Could you write a function that tells us that "120" is "5!"?
+Hint: The strategy is pretty straightforward, just divide the term by successively larger terms until you get to "1" as the resultant:
+```120 -> 120/2 -> 60/3 -> 20/4 -> 5/5 -> 1 => 5!```
+Sample Input
+
+You'll be given a single integer, one per line. Examples:
+```
+120
+150
+120 = 5!
+150   NONE```
+
+Challenge Input
+```
+3628800
+479001600
+6
+18```
+
+Please DM me with ideas for future problems. When you have completed it post a link to your solution.
+
+*if you have a question about someones solution please use a thread under their posted link*
+
 This problem was also send to my DM's. Have you sent me a problem? A sequence of numbers is called a zig-zag sequence if the differences between successive numbers strictly alternate between positive and negative. The first difference (if one exists) may be either positive or negative. A sequence with fewer than two elements is trivially a zig-zag sequence.
 
 For example, 1,7,4,9,2,5 is a zig-zag sequence because the differences (6,-3,5,-7,3) are alternately positive and negative. In contrast, 1,4,7,2,5 and 1,7,4,5,5 are not zig-zag sequences, the first because its first two differences are positive and the second because its last difference is zero.

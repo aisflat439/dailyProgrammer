@@ -1,3 +1,22 @@
+Happy Tuesday!
+Lots of new folks joined `daily_programmer` in the last few days. That's super. Feel free to send me a DM me a challenge or idea.
+
+
+As any number greater than 9 is represented by several digits, we can calculate the sum of these digits. For example, for numbers 1492 and 1776 we get:
+
+```
+1 + 4 + 9 + 2 = 16
+1 + 7 + 7 + 6 = 21
+```
+
+In this task you will be given several numbers and asked to calculate their sums of digits.
+
+Many programming languages have built-in functions to convert numbers to strings (from which digits could be extracted), you should totally use this (since your goal is to learn some programming tricks). But it's also helpful to try to implement algorithm with repetitive division by 10 (base of numeral system) and summing up the remainders.
+
+Please DM me with ideas for future problems. When you have completed it post a link to your solution.
+
+*if you have a question about someones solution please use a thread under their posted link*
+
 Happy Monday!
 
 Write a function that transforms a string into title case. This mostly means: capitalizing only every first letter of every word in the string. However, there are some non-obvious exceptions to title case which can't easily be hard-coded. Your function must accept, as a second argument, a set or list of words that should not be capitalized. Furthermore, the first word of every title should always have a capital leter. For example:

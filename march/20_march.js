@@ -15,8 +15,6 @@ function findLetterMatches(word) {
   let len = wordAsArray.length;
 
   let sortedWord = wordAsArray.slice().sort();
-  
-
 
   console.log("=============");
   console.log(wordAsArray);

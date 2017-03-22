@@ -24,3 +24,4 @@ function createArrayOfDigits(value) {
 
 console.log(weightedSumOfDigits(1492));
 console.log(weightedSumOfDigits(1776));
+console.log(weightedSumOfDigits(2011));

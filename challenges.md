@@ -1,3 +1,17 @@
+Happy Wednesday daily programmers!
+
+If you did yesterday's problem you'll have a leg up on todays!
+
+We are going to calculate the weighted sum of digits, as earlier, but multiplying each digit by its position (counting from the left, starting from 1). For example, given the value 1776 we calculate such weighted sum of digits (let us call it "wsd") as:
+
+```
+wsd(1776) = 1 * 1 + 7 * 2 + 7 * 3 + 6 * 4 = 60
+```
+
+Please DM me with ideas for future problems. When you have completed it post a link to your solution. If your idea is complex that means we can break it out into smaller, algorithmic steps. Helping those who've been at it for a while do something a different way and newer folks try new things.
+
+*if you have a question about someones solution please use a thread under their posted link*
+
 Happy Tuesday!
 Lots of new folks joined `daily_programmer` in the last few days. That's super. Feel free to send me a DM me a challenge or idea.
 

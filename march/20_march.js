@@ -22,13 +22,20 @@ function findLetterMatches(word) {
   console.log("=============");
 
   // for each letter in words in a array
-  // compare vs all other lettesre
+  // compare vs all other letters
   // if they match store them
+
   // if they don't store them elsewhere
   // sort string one
   // then string two
   // append string two to string one
+  return wordAsArray;
  }
+
+function storeMatches() {
+  let array = [];
+  return array;
+}
 
 function stringSorter(word) {
   let wordAsArray = word.split('');

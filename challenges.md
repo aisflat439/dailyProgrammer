@@ -1,3 +1,43 @@
+*Happy Friday!*
+
+Yesterday's challenge was pretty difficult. I won't be alone googling Hamming Distance this weekend I suspect. This challenge is a bit more familiar as it's fun with arrays. It's modified from code abbey.
+
+We will be given several lines of text - and for each of them we want to know the number of vowels (i.e. letters a, o, u, i, e). Note: y is regarded as a sometimes vowel so we'll count it as an aside.
+
+```
+input = "Pixel"
+output = "There are two vowels in 'pixel'."  
+input = "Friday daily challenge"
+output = "There are seven vowels and two y's in 'Friday daily challenge'."
+input = "Analagous"  
+output = "there are five vowels in 'Analagous'"  
+```
+
+Please DM me with ideas for future problems. When you have completed it post a link to your solution.
+
+*if you have a question about someones solution please use a thread under their posted link*
+
+Happy Thursday!
+
+Given two words, beginWord and endWord, and a wordList of approved words, find the length of the shortest transformation sequence from beginWord to endWord such that:
+
+Only one letter can be changed at a time
+Each transformed word must exist in the wordList.
+Return the length of the shortest transformation sequence, or 0 if no such transformation sequence exists.
+
+Note: beginWord does not count as a transformed word. You can assume that beginWord and endWord are not empty and are not the same.
+
+Example
+
+For beginWord = "hit", endWord = "cog", and wordList = ["hot", "dot", "dog", "lot", "log", "cog"], the output should be
+wordLadder(beginWord, endWord, wordList) = 5.
+
+The shortest transformation is "hit" -> "hot" -> "dot" -> "dog" -> "cog" with a length of 5.
+
+Please DM me with ideas for future problems. When you have completed it post a link to your solution.
+
+*if you have a question about someones solution please use a thread under their posted link*
+
 Happy Wednesday daily programmers!
 
 If you did yesterday's problem you'll have a leg up on todays!

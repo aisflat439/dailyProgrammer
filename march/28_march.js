@@ -10,14 +10,25 @@ function mergeArrays(arrayOne, arrayTwo) {
   let mergedArray = [];
 
   if (arrayOne.length === len){
-    arrayOne.map(()=> {
-
+    arrayOne.forEach((item, index) => {
+      mergedArray.push(item);
+      if (arrayTwo[index] !== undefined) {
+        mergedArray.push(arrayTwo[index])
+      }
     })
   } else {
-
+    arrayTwo.forEach((item, index) => {
+      if (arrayOne[index] !== undefined) {
+        mergedArray.push(arrayOne[index])
+      }
+      mergedArray.push(item);
+    })
   }
 
-  return len;
+  return mergedArray;
 }
 
 console.log(mergeArrays(["1", "2", "3"], ["a", "b", "c"]));
+console.log(mergeArrays(["1", "2", "3"], ["a", "b"]));
+console.log(mergeArrays(["1", "2", "3"], ["a", "b", "c"]));
+console.log(mergeArrays(["1", "2"], ["a", "b", "c"]));

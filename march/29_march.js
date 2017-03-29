@@ -29,5 +29,3 @@ console.log("Should print [1,6] and [7,11]");
 console.log(mergeOverlappingAmounts( [1, 3], [2, 6], [8, 10], [7, 11] ));
 console.log("Should print [5,12]");
 console.log(mergeOverlappingAmounts( [5, 12], [8, 10] ));
-
-console.log(comparePair( [5, 12], [8, 10] ));

@@ -18,6 +18,11 @@ fs.readFile('./data/elements.csv', 'utf8', (error, elementsCSV) => {
     elements.push(e)
   })
 
+  elements = elements.filter((e) => {
+    if ((e.weight >= 50 && e.weight <= 100) && (e.name.endsWith('ium'))) {
+      return e;
+    }
+  });
   console.log(elements);
 });
 

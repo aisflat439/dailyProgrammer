@@ -4,16 +4,17 @@ function findSubstring(testString){
   let newString = [];
   testString = testString.split('');
 
-  testString = testString.filter((element, index, array) => {
-    // test letter versus the next letter in the array.
-    // if there is no match, add element to array and continue
-    if (element !== array[index + 1]) {
-      return element;
+  for (let i = 0; i < testString.length; i++)   {
+    if ((testString[i] !== testString[i + 1]) && testString[i] !== newString[newString.length - 1]) {
+      newString.push(testString[i]);
     }
-    // if there is a match, add element to new string and quit
-  })
+    if (testString[i] === testString[i + 1]) {
+      newString.push(testString[i]);
+      break;
+    }
+  }
 
-  return `${testString.join('')}, which the length is ${testString.length}`;
+  return `${newString.join('')}, which the length is ${newString.length}`;
 }
 
 console.log(`Should print \n"abc", which the length is 3`);

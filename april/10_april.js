@@ -80,10 +80,10 @@ function BinaryTree() {
 var tree = new BinaryTree();
 
 function traverse() {
-  console.log(tree.getNode());
-  if (tree.leftSide() === undefined)  { traverse(); }
+  console.log(`traversed is: ${tree.getNode()}`);
+  if (tree.leftSide() !== undefined)  { traverse(); }
   tree.parent();
-  if (tree.rightSide() === undefined) { traverse(); }
+  if (tree.rightSide() !== undefined) { traverse(); }
   tree.parent();
 }
 
@@ -106,10 +106,10 @@ console.log(tree.rightSide());
 console.log(tree.rightSide());
 
 console.log(`----------------------`);
-console.log(`Should traverse and print tree`);
-console.log(`Currently broken`);
-console.log(`----------------------`);
+console.log(`Should traverse and print tree but prints 2,0 -- 2,1 -- 2,3`);
+tree.root();
 traverse();
+console.log(`----------------------`);
 
 // this is returning node 0, level 2 why?
 console.log(`----------------------`);

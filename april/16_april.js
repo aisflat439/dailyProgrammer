@@ -4,14 +4,14 @@ function anagramTester(firstString, secondString) {
   let reorderedStringOne,
       reorderedStringTwo;
 
-  reorderedStringOne = firstString.split('').sort((a, b) => {
+  reorderedStringOne = Array.from(firstString).sort((a, b) => {
     return a < b;
   });
-  reorderedStringTwo = secondString.split('').sort((a, b) => {
+  reorderedStringTwo = Array.from(secondString).sort((a, b) => {
     return a < b;
   });
 
-  if (reorderedStringOne.join('') == reorderedStringTwo.join('')) {
+  if (reorderedStringOne.toString() == reorderedStringTwo.toString()) {
     return `${firstString} and ${secondString} are anagrams`;
   } else {
     return `${firstString} and ${secondString} are not anagrams`;

@@ -1,3 +1,90 @@
+*Happy Tuesday! many people jumped ahead and solved for palindromes so....*
+
+Determine whether an integer is a palindrome. Do this without extra space.
+
+Please DM me with ideas for future problems. When you have completed it post a link to your solution.
+
+*if you have a question about someones solution please use a thread under their posted link*
+
+*Happy Monday! I hope you enjoyed tree week, I'm working on a recursion week if you have ideas send em over.*
+
+Given two strings s and t, write a function to determine if t is an anagram of s.
+
+For example,
+s = "anagram", t = "nagaram", return true.
+s = "rat", t = "car", return false.
+
+Note:
+You may assume the string contains only lowercase alphabets.
+
+Please DM me with ideas for future problems. When you have completed it post a link to your solution.
+
+*if you have a question about someones solution please use a thread under their posted link*
+
+
+*Happy Friday! I hope you enjoyed tree week*
+
+Given a binary tree, return all root-to-leaf paths.
+
+For example, given the following binary tree:
+
+```
+   1
+ /   \
+2     3
+ \
+  5
+```
+All root-to-leaf paths are:
+
+["1->2->5", "1->3"]
+
+Please DM me with ideas for future problems. When you have completed it post a link to your solution.
+
+*if you have a question about someones solution please use a thread under their posted link*
+
+*Happy Thursday, and the second to last day of tree week*
+
+Given a binary tree, you need to compute the length of the diameter of the tree. The diameter of a binary tree is the length of the longest path between any two nodes in a tree. This path may or may not pass through the root.
+
+Example:
+```
+Given a binary tree
+          1
+         / \
+        2   3
+       / \     
+      4   5    
+```
+Return *3*, which is the length of the path *[4,2,1,3]* or *[5,2,1,3]*.
+
+Please DM me with ideas for future problems. When you have completed it post a link to your solution.
+
+*if you have a question about someones solution please use a thread under their posted link*
+
+
+*Happy Wednesday!*
+
+Given a binary tree, find its maximum depth.
+
+The maximum depth is the number of nodes along the longest path from the root node down to the farthest leaf node.
+
+Please DM me with ideas for future problems. When you have completed it post a link to your solution.
+
+*if you have a question about someones solution please use a thread under their posted link*
+
+*Happy Tuesday!*
+
+Tree week continues!
+
+Given two binary trees, write a function to check if they are equal or not.
+
+Two binary trees are considered equal if they are structurally identical and the nodes have the same value.
+
+Please DM me with ideas for future problems. When you have completed it post a link to your solution.
+
+*if you have a question about someones solution please use a thread under their posted link*
+
 *Happy Friday!*
 
 Yesterday's challenge was pretty difficult. I won't be alone googling Hamming Distance this weekend I suspect. This challenge is a bit more familiar as it's fun with arrays. It's modified from code abbey.

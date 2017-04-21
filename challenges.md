@@ -1,3 +1,52 @@
+*Happy Friday!*
+
+Given a positive integer n, find the least number of perfect square numbers (for example, 1, 4, 9, 16, ...) which sum to n.
+
+For example, given n = 12, return 3 because 12 = 4 + 4 + 4; given n = 13, return 2 because 13 = 4 + 9.
+
+Please DM me with ideas for future problems. When you have completed it post a link to your solution.
+
+*if you have a question about someones solution please use a thread under their posted link*
+
+*Happy Thursday!*
+
+Given a string array words, find the maximum value of length(word[i]) * length(word[j]) where the two words do not share common letters. You may assume that each word will contain only lower case letters. If no such two words exist, return 0.
+
+Example 1:
+Given `["abcw", "baz", "foo", "bar", "xtfn", "abcdef"]`
+Return 16
+The two words can be "abcw", "xtfn".
+
+Example 2:
+Given `["a", "ab", "abc", "d", "cd", "bcd", "abcd"]`
+Return 4
+The two words can be "ab", "cd".
+
+Example 3:
+Given `["a", "aa", "aaa", "aaaa"]`
+Return 0
+No such pair of words.
+
+Please DM me with ideas for future problems. When you have completed it post a link to your solution.
+
+*if you have a question about someones solution please use a thread under their posted link*
+
+*Happy Wednesday!*
+
+The count-and-say sequence is the sequence of integers beginning as follows:
+`1, 11, 21, 1211, 111221, ...``
+
+`1` is read off as `"one 1"` or `11`.
+`11` is read off as `"two 1s"` or `21`.
+`21` is read off as `"one 2, then one 1"` or `1211`.
+Given an integer n, generate the nth sequence.
+
+Note: The sequence of integers will be represented as a string.
+
+Please DM me with ideas for future problems. When you have completed it post a link to your solution.
+
+*if you have a question about someones solution please use a thread under their posted link*
+
 *Happy Tuesday! many people jumped ahead and solved for palindromes so....*
 
 Determine whether an integer is a palindrome. Do this without extra space.

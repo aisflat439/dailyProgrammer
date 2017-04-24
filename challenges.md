@@ -1,5 +1,141 @@
 *Happy Friday!*
 
+Given a positive integer n, find the least number of perfect square numbers (for example, 1, 4, 9, 16, ...) which sum to n.
+
+For example, given n = 12, return 3 because 12 = 4 + 4 + 4; given n = 13, return 2 because 13 = 4 + 9.
+
+Please DM me with ideas for future problems. When you have completed it post a link to your solution.
+
+*if you have a question about someones solution please use a thread under their posted link*
+
+*Happy Thursday!*
+
+Given a string array words, find the maximum value of length(word[i]) * length(word[j]) where the two words do not share common letters. You may assume that each word will contain only lower case letters. If no such two words exist, return 0.
+
+Example 1:
+Given `["abcw", "baz", "foo", "bar", "xtfn", "abcdef"]`
+Return 16
+The two words can be "abcw", "xtfn".
+
+Example 2:
+Given `["a", "ab", "abc", "d", "cd", "bcd", "abcd"]`
+Return 4
+The two words can be "ab", "cd".
+
+Example 3:
+Given `["a", "aa", "aaa", "aaaa"]`
+Return 0
+No such pair of words.
+
+Please DM me with ideas for future problems. When you have completed it post a link to your solution.
+
+*if you have a question about someones solution please use a thread under their posted link*
+
+*Happy Wednesday!*
+
+The count-and-say sequence is the sequence of integers beginning as follows:
+`1, 11, 21, 1211, 111221, ...``
+
+`1` is read off as `"one 1"` or `11`.
+`11` is read off as `"two 1s"` or `21`.
+`21` is read off as `"one 2, then one 1"` or `1211`.
+Given an integer n, generate the nth sequence.
+
+Note: The sequence of integers will be represented as a string.
+
+Please DM me with ideas for future problems. When you have completed it post a link to your solution.
+
+*if you have a question about someones solution please use a thread under their posted link*
+
+*Happy Tuesday! many people jumped ahead and solved for palindromes so....*
+
+Determine whether an integer is a palindrome. Do this without extra space.
+
+Please DM me with ideas for future problems. When you have completed it post a link to your solution.
+
+*if you have a question about someones solution please use a thread under their posted link*
+
+*Happy Monday! I hope you enjoyed tree week, I'm working on a recursion week if you have ideas send em over.*
+
+Given two strings s and t, write a function to determine if t is an anagram of s.
+
+For example,
+s = "anagram", t = "nagaram", return true.
+s = "rat", t = "car", return false.
+
+Note:
+You may assume the string contains only lowercase alphabets.
+
+Please DM me with ideas for future problems. When you have completed it post a link to your solution.
+
+*if you have a question about someones solution please use a thread under their posted link*
+
+
+*Happy Friday! I hope you enjoyed tree week*
+
+Given a binary tree, return all root-to-leaf paths.
+
+For example, given the following binary tree:
+
+```
+   1
+ /   \
+2     3
+ \
+  5
+```
+All root-to-leaf paths are:
+
+["1->2->5", "1->3"]
+
+Please DM me with ideas for future problems. When you have completed it post a link to your solution.
+
+*if you have a question about someones solution please use a thread under their posted link*
+
+*Happy Thursday, and the second to last day of tree week*
+
+Given a binary tree, you need to compute the length of the diameter of the tree. The diameter of a binary tree is the length of the longest path between any two nodes in a tree. This path may or may not pass through the root.
+
+Example:
+```
+Given a binary tree
+          1
+         / \
+        2   3
+       / \     
+      4   5    
+```
+Return *3*, which is the length of the path *[4,2,1,3]* or *[5,2,1,3]*.
+
+Please DM me with ideas for future problems. When you have completed it post a link to your solution.
+
+*if you have a question about someones solution please use a thread under their posted link*
+
+
+*Happy Wednesday!*
+
+Given a binary tree, find its maximum depth.
+
+The maximum depth is the number of nodes along the longest path from the root node down to the farthest leaf node.
+
+Please DM me with ideas for future problems. When you have completed it post a link to your solution.
+
+*if you have a question about someones solution please use a thread under their posted link*
+
+*Happy Tuesday!*
+
+Tree week continues!
+
+Given two binary trees, write a function to check if they are equal or not.
+
+Two binary trees are considered equal if they are structurally identical and the nodes have the same value.
+
+Please DM me with ideas for future problems. When you have completed it post a link to your solution.
+
+*if you have a question about someones solution please use a thread under their posted link*
+
+*Happy Friday!*
+
 Yesterday's challenge was pretty difficult. I won't be alone googling Hamming Distance this weekend I suspect. This challenge is a bit more familiar as it's fun with arrays. It's modified from code abbey.
 
 We will be given several lines of text - and for each of them we want to know the number of vowels (i.e. letters a, o, u, i, e). Note: y is regarded as a sometimes vowel so we'll count it as an aside.

@@ -1,3 +1,19 @@
+*Happy Tuesday!*
+
+Write a function `get_products_of_all_ints_except_at_index()` that takes a list of integers and returns a list of the products.
+
+For example, given:
+
+`[1, 7, 3, 4]`
+
+your function would return:
+
+`[84, 12, 28, 21]`
+
+Please DM me with ideas for future problems. When you have completed it post a link to your solution.
+
+*if you have a question about someones solution please use a thread under their posted link*
+
 *Happy Friday!*
 
 Given a positive integer n, find the least number of perfect square numbers (for example, 1, 4, 9, 16, ...) which sum to n.

@@ -1,10 +1,19 @@
 'use strict';
 
 function findOverlapsOnArray(testArrayOne, testArrayTwo) {
-  testArrayOne.filter(()=>{
+  let matches = testArrayOne.filter((item) => {
+    for (let i = 0; i < testArrayTwo.length; i++) {
+      if (testArrayTwo[i] === item) {
+        return item;
+      }
+    }
+  });
+
+  let mergedArray = testArrayOne.map((item) => {
 
   });
-  return true;
+
+  return `${mergedArray} and ${matches}`;
 }
 
 console.log(`Should print [1, 2, 3, 7, 8, 11, 13] and [7, 8].`);

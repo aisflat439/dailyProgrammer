@@ -1,3 +1,96 @@
+Cesars Cipher
+Cesar Cipher with a word
+Solve a cipher
+
+Morse Code solver
+
+*Happy Thursday, Cipher week is nearly finished!*
+
+Some ciphers are just representations of letters. Like (Morse Code)[https://en.wikipedia.org/wiki/Morse_code#Development_and_history]. Our task today is to write a program that takes an phrase input, and outputs the Morse values. You can use `.` and `-` or (Spoken representation)[https://en.wikipedia.org/wiki/Morse_code#Spoken_representation], whichever you like.
+
+Feel free to build a Morse translator if you like and solve the puzzle `-.-- . .- .... / .-- . .-.. .-.. / -.-- --- ..- / -.- -. --- .-- / - .... .- - ... / .--- ..- ... - / .-.. .. -.- . / -.-- --- ..- .-. / --- .--. .. -. .. --- -. / -- .- -.`
+
+Please DM me with ideas for future problems or future themed weeks. When you have completed it post a link to your solution.
+
+*if you have a question about someones solution please use a thread under their posted link*
+
+*Happy Wednesday, Cipher week continues!*
+
+A Vigenere Cipher continues in the Cesar Cipher theme. It shifts the Cesar cipher each successive letter. Wikipedia(https://en.wikipedia.org/wiki/Vigen%C3%A8re_cipher) likely explains it best:
+```
+Each row starts with a key letter. The remainder of the row holds the letters A to Z (in shifted order). Although there are 26 key rows shown, you will only use as many keys (different alphabets) as there are unique letters in the key string, here just 5 keys, {L, E, M, O, N}. For successive letters of the message, we are going to take successive letters of the key string, and encipher each message letter using its corresponding key row. Choose the next letter of the key, go along that row to find the column heading that matches the message character; the letter at the intersection of [key-row, msg-col] is the enciphered letter.
+```
+The result is the keyword `dude` yeilds `l'g d phvravel cro'ui d fhfrqvol`, even though *phvravel* and *fhfrqvol* are the same word!
+
+Please DM me with ideas for future problems or future themed weeks. When you have completed it post a link to your solution.
+
+*if you have a question about someones solution please use a thread under their posted link*
+
+*Happy Tuesday, Cipher week continues!*
+
+*Happy Monday and welcome to Cipher week*
+
+Cesars Cipher was a pretty easy code to break since there were only 26 possible codes. Enter the keyed cipher. It shifts the alphabet with by moving letters to the beginning, based on the word. http://rumkin.com/tools/cipher/caesar-keyed.php
+
+Your program should take a word, and a phrase and return the encrypted text. This phrase was uttered by The Dude in The Big Lebowski `Ghswgrobx xgr’ny fgq p egbtyn.`. You'll be able to see it with the keyword `phillytechweek`.
+
+Please DM me with ideas for future problems or future themed weeks. When you have completed it post a link to your solution.
+
+*if you have a question about someones solution please use a thread under their posted link*
+
+[Cesars Cipher](https://en.wikipedia.org/wiki/Caesar_cipher) is where you shift the letters of the alphabet, in order to encode a message. For example, `PhillyDev` shifted 5 would yield `UmnqqdIja`. The *P* is shifted 5 letters, to *U*.
+
+Make a function that takes two parameters, the word, and the shift. Your function should return the shifted word. This weeks problems build on each other, so just post your answer to this problem for now, even if you can go further.
+
+Please DM me with ideas for future problems or future themed weeks. When you have completed it post a link to your solution.
+
+*if you have a question about someones solution please use a thread under their posted link*
+
+*Happy Friday!*
+
+Given an unsorted array of integers, find the length of the longest consecutive elements sequence.
+
+For example,
+Given `[100, 4, 200, 1, 3, 2]`,
+The longest consecutive elements sequence is `[1, 2, 3, 4]`. Return its length: 4.
+
+Please DM me with ideas for future problems. When you have completed it post a link to your solution.
+
+*FYI: I'm putting together a themed week on Ciphers. If you have any Cipher problems to pass along that would be a great help. If you know its level of difficulty please note that as well.*
+
+*if you have a question about someones solution please use a thread under their posted link*
+
+
+*Happy Thursday!*
+
+Given an unsorted array return whether an increasing subsequence of length 3 exists or not in the array.
+
+Examples:
+Given [1, 2, 3, 4, 5],
+return true.
+
+Given [5, 4, 3, 2, 1],
+return false.
+
+Please DM me with ideas for future problems. When you have completed it post a link to your solution.
+
+*FYI: I'm putting together a themed week on Ciphers. If you have any Cipher problems to pass along that would be a great help. If you know its level of difficulty please note that as well.*
+
+*if you have a question about someones solution please use a thread under their posted link*
+
+*Happy Wednesday!*
+
+Given two sorted arrays, find their union and intersection.
+
+For example, if the input arrays are:
+`arr1[] = {1, 3, 4, 5, 7}`
+`arr2[] = {2, 3, 5, 6}`
+Then your program should print Union as `{1, 2, 3, 4, 5, 6, 7}` and Intersection as `{3, 5}`.
+
+Please DM me with ideas for future problems. When you have completed it post a link to your solution.
+
+*if you have a question about someones solution please use a thread under their posted link*
+
 *Happy Tuesday!*
 
 Write a function `get_products_of_all_ints_except_at_index()` that takes a list of integers and returns a list of the products.

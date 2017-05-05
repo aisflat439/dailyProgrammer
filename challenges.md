@@ -4,6 +4,14 @@ Solve a cipher
 
 Morse Code solver
 
+*Happy Friday. Cipher week in complete!*
+
+Friday's task is to put it all together. Write a program that takes a keyword and a phrase, it should return the phrase encoded in Keyed Cesars SOS.
+
+I hope you enjoyed Cipher week. It was fun to put together. Please DM me with ideas for future problems or future themed weeks. I'm going to put together an IO week next, should be fun. When you have completed it post a link to your solution.
+
+*if you have a question about someones solution please use a thread under their posted link*
+
 *Happy Thursday, Cipher week is nearly finished!*
 
 Some ciphers are just representations of letters. Like (Morse Code)[https://en.wikipedia.org/wiki/Morse_code#Development_and_history]. Our task today is to write a program that takes an phrase input, and outputs the Morse values. You can use `.` and `-` or (Spoken representation)[https://en.wikipedia.org/wiki/Morse_code#Spoken_representation], whichever you like.

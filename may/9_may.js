@@ -4,8 +4,18 @@ function findSubsetsThatSumToZero(arraySet) {
   let hasMatch = false;
   let length = arraySet.length;
   arraySet.forEach((item, index, array) => {
-    if (item == 0) {
+    if (item === 0) {
       hasMatch = true;
+    }
+    let subset = [];
+    for (let i = 0; i < index; i++){
+      subset.push(array[i]);
+      let sumOfSubset = subset.reduce((accumuator, value) => {
+        return accumuator + value;
+      });
+      if (item + sumOfSubset === 0) {
+        hasMatch = true;
+      }
     }
   });
 

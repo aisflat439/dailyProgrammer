@@ -1,8 +1,30 @@
-Cesars Cipher
-Cesar Cipher with a word
-Solve a cipher
+*Happy Tuesday!*
 
-Morse Code solver
+Following up on yesterday... Given a sorted list of distinct integers, write a function that returns whether there *any subset combinations* in the list that add up to 0. For example, you would return true if `[-8, 3, 5, 11]` are in the list, because -8 + 3 + 5 = 0. Also return true if 0 appears in the list.
+
+```
+[-3, 1, 2] -> TRUE
+[-98634, -86888, -48841, -40483, 2612, 9225, 17848, 71967, 84319, 88875] -> TRUE
+[-3, 2, 7] -> FALSE
+[-83314, -82838, -80120, -63468, -62478, -59378, -56958, -50061, -34791, -32264, -21928, -14988, 23767, 24417, 26403, 26511, 36399, 78055] -> FALSE
+```
+
+Please DM me with ideas for future problems or future themed weeks. When you have completed it post a link to your solution.
+
+*if you have a question about someones solution please use a thread under their posted link*
+
+*Happy Monday!*
+
+Given a sorted list of distinct integers, write a function that returns whether there are two integers in the list that add up to 0. For example, you would return true if both -14435 and 14435 are in the list, because -14435 + 14435 = 0. Also return true if 0 appears in the list.
+
+```
+[1, 2, 3] -> false
+[-5, -3, -1, 2, 4, 6] -> false
+```
+
+Please DM me with ideas for future problems or future themed weeks. When you have completed it post a link to your solution.
+
+*if you have a question about someones solution please use a thread under their posted link*
 
 *Happy Friday. Cipher week in complete!*
 

@@ -1,3 +1,36 @@
+*Happy Friday!!!*
+
+The oblique function slices a matrix (2d array) into diagonals. The de-oblique function takes diagonals of a matrix, and reassembles the original rectangular one.
+
+input
+```
+0  1  2  3  4  5
+6  7  8  9 10 11
+12 13 14 15 16 17
+18 19 20 21 22 23
+24 25 26 27 28 29
+30 31 32 33 34 35
+```
+
+output
+```
+0               
+1 6             
+2 7 12          
+3 8 13 18       
+4 9 14 19 24    
+5 10 15 20 25 30
+11 16 21 26 31  
+17 22 27 32     
+23 28 33        
+29 34           
+35  
+```
+
+Please DM me with ideas for future problems or future themed weeks. When you have completed it post a link to your solution. I'm setting up IO week over the weekend. If you have problems or ideas, let me know!
+
+*if you have a question about someones solution please use a thread under their posted link*
+
 *Happy Tuesday!*
 
 Following up on yesterday... Given a sorted list of distinct integers, write a function that returns whether there *any subset combinations* in the list that add up to 0. For example, you would return true if `[-8, 3, 5, 11]` are in the list, because -8 + 3 + 5 = 0. Also return true if 0 appears in the list.

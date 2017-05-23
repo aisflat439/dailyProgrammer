@@ -24,6 +24,11 @@ fs.readFile('./data/elements.csv', 'utf8', (error, elementsCSV) => {
   console.log(values);
   let inputs = ['H', 'C', 'N', 'O'];
 
+  values.forEach((item, index, array) => {
+    // test each value
+
+  })
+
   currentSubset = elements.filter((item, index, arr) => {
     // inputs.forEach((input) => {
       if (item.symbol === inputs[0]) {
@@ -52,6 +57,9 @@ function Element(number, symbol, name, weight) {
   this.weight = weight;
 }
 
+// switch this to taking one item
+// then you can get the return 2 - H and 2 - O
+// you can then do the math on that.
 function cleanInputs(array) {
   array = array.join().split('');
   return array;

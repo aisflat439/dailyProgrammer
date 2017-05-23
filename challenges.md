@@ -1,3 +1,28 @@
+*Happy Wednesday*
+
+In the console, you will be three integers or sets of integers. You will first be  given an integer N. This is the number of following integers that are part of the array. You will then be prompted for an array of integers with only a space as a separator. After the N integers, you will be given an integer C which represents the sum-pair you are attempting to match.
+
+Example
+```
+INPUT
+6
+1 -3 4 0 f4 77
+5
+OUTPUT
+1, 4
+```
+
+Challenge Set of input
+```
+14
+10 -8 2 1 4 -9 6 1 9 -10 -5 2 3 7
+7
+```
+
+Please DM me with ideas for future problems or future themed weeks. When you have completed it post a link to your solution. If you have problems or ideas, let me know!
+
+*if you have a question about someones solution please use a thread under their posted link*
+
 *Happy Friday!!!*
 
 The oblique function slices a matrix (2d array) into diagonals. The de-oblique function takes diagonals of a matrix, and reassembles the original rectangular one.

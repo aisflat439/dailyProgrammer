@@ -23,6 +23,175 @@ Please DM me with ideas for future problems or future themed weeks. When you hav
 
 *if you have a question about someones solution please use a thread under their posted link*
 
+*Happy Monday Daily Programmer*
+
+IO problems continue this week. Today our challenge is to find out what year had the most presidents alive at the same time.
+
+Good luck!
+
+Please DM me with ideas for future problems or future themed weeks. When you have completed it post a link to your solution. I'll be away from May 30 - June 8th. Is anyone interested in pinch hitting?
+
+*if you have a question about someones solution please use a thread under their posted link*
+
+
+*Happy Friday Daily Programmer*
+
+Write a program that will create a template HTML file for you from the console input prompt.
+
+```
+"Enter opening paragraph:"
+"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+```
+
+output a `index.htlm` file:
+
+```
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+    </head>
+
+    <body>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    </body>
+</html>
+```
+
+Please DM me with ideas for future problems or future themed weeks. When you have completed it post a link to your solution. I'll be away from May 30 - June 8th. Is anyone interested in pinch hitting?
+
+*if you have a question about someones solution please use a thread under their posted link*
+
+*Happy Thursday Daily Programmer*
+
+Today's problem came about from yesterdays problem. Take an input string, check the string for a Hexadecimal input and output the string with the Hexadecimal input converted to a number.
+
+**Sample Input**
+ ```
+ Taylor Swift put out the album 7C5 in 7DE
+ SHOULD OUTPUT
+ Taylor Swift put out the album 1989 in 2014
+ ```
+
+**Optional**: Convert each word to the minimum base that they can be described with and append #<base> to the end of it
+
+Please DM me with ideas for future problems or future themed weeks. When you have completed it post a link to your solution. I'll be away from May 30 - June 8th. Is anyone interested in pinch hitting?
+
+*if you have a question about someones solution please use a thread under their posted link*
+
+*Happy Tuesday Daily Programmer*
+
+On console input you will be given a string that represents the abbreviated chat message.
+Output. Output should consist of the expanded sentence.
+
+Wordlist
+
+```
+lol - laugh out loud
+dw - don't worry
+hf - have fun
+gg - good game
+brb - be right back
+g2g - got to go
+wtf - what the fuck
+wp - well played
+gl - good luck
+imo - in my opinion
+```
+input
+
+```
+wtf that was unfair
+```
+
+output
+
+```
+what the fuck that was unfair
+```
+
+```
+gl all hf
+'good luck all have fun'
+imo that was wp. anyway i've g2g
+'in my opinion that was well played. anyway i've got to go.
+```
+
+Please DM me with ideas for future problems or future themed weeks. When you have completed it post a link to your solution.
+
+*if you have a question about someones solution please use a thread under their posted link*
+
+*Happy Monday Daily Programmer*
+
+Write a program that takes input text from standard input and outputs the text -- transposed.
+Roughly explained, the transpose of a matrix
+
+```
+A B C
+D E F
+```
+
+is given by
+
+```
+A D
+B E
+C F
+```
+
+Rows become columns and columns become rows.
+
+```
+philly
+dev
+```
+
+becomes:
+
+```
+pd
+he
+iv
+l
+l
+y
+```
+
+Please DM me with ideas for future problems or future themed weeks. When you have completed it post a link to your solution.
+
+*if you have a question about someones solution please use a thread under their posted link*
+
+*Happy Thursday!*
+
+A Polygon is a geometric two-dimensional figure that has n-sides (line segments) that closes to form a loop. Polygons can be in many different shapes and have many different neat properties, though this challenge is about Regular Polygons. Our goal is to compute the permitter of an n-sided polygon that has equal-length sides given the circumradius. This is the distance between the center of the Polygon to any of its vertices; not to be confused with the apothem!
+
+Input will consist of one line on standard console input. This line will contain first an integer N, then a floating-point number R. They will be space-delimited. The integer N is for the number of sides of the Polygon, which is between 3 to 100, inclusive. R will be the circumradius, which ranges from 0.01 to 100.0, inclusive.
+
+
+```
+5 3.7 => 21.748
+100 1.0 => 6.282
+```
+
+Please DM me with ideas for future problems or future themed weeks. When you have completed it post a link to your solution.
+
+*Next week will be IO week. If you have any fun IO related problems or ideas please pass them along so I can plan it this weekend.*
+
+*if you have a question about someones solution please use a thread under their posted link*
+
+
+*Happy Wednesday!*
+
+Take the following inputs in shorthand range, and translate them to longhand range.
+```
+1,6,4,9,1,6 => [1, 6, 14, 19, 21, 26]
+2,9..9,9 => [2, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 29]
+5,7,0,1,9,4 => [5, 7, 10, 11, 19, 24]
+```
+
+Please DM me with ideas for future problems or future themed weeks. When you have completed it post a link to your solution.
+=======
+>>>>>>> 5edbc05d4a81a8ebb53b70ea42dc9172e20b91ce
 *Happy Friday!!!*
 
 The oblique function slices a matrix (2d array) into diagonals. The de-oblique function takes diagonals of a matrix, and reassembles the original rectangular one.
@@ -53,6 +222,7 @@ output
 ```
 
 Please DM me with ideas for future problems or future themed weeks. When you have completed it post a link to your solution. I'm setting up IO week over the weekend. If you have problems or ideas, let me know!
+>>>>>>> 51acf9026f1c34f62ca1bfb73953e274f28ab11c
 
 *if you have a question about someones solution please use a thread under their posted link*
 

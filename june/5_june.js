@@ -1,10 +1,17 @@
 'use strict';
 
 function returnArithmeticSequences(array) {
+  let numberOfSequences = 0;
   if (isArithmeticSequence(array)) {
-    return true;
+    numberOfSequences++;
+    array.forEach((item, index, array) => {
+      if (array[index + 2] !== undefined && array.length > 3) {
+        numberOfSequences++;
+      }
+    })
+    return numberOfSequences;
   }
-  return 'Not an arithmetic sequence';
+  return `${numberOfSequences} arithmetic sequences`;
 }
 
 function isArithmeticSequence(array){
@@ -30,9 +37,9 @@ console.log("Should return 3:");
 console.log(returnArithmeticSequences([2, 4, 6, 8]));
 console.log("Should return 1:");
 console.log(returnArithmeticSequences([1, 5, 9]));
-console.log("Should return Not an arithmetic sequence:");
+console.log("Should return 0 arithmetic sequences:");
 console.log(returnArithmeticSequences([1, 3, 3, 24]));
-console.log("Should return Not an arithmetic sequence:");
+console.log("Should return 0 arithmetic sequences:");
 console.log(returnArithmeticSequences([1, 3, 3]));
-console.log("Should return Not an arithmetic sequence:");
+console.log("Should return 0 arithmetic sequences:");
 console.log(returnArithmeticSequences([1, 3]));

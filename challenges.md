@@ -1,8 +1,136 @@
+*Happy Tuesday Daily Programmer*
+
+A file I/O Question today.
+
+Write a program that validates phone numbers fit one of the following two formats.
+
+```
+(xxx) xxx-xxxx
+xxx-xxx-xxxx
+```
+
+This file () should return:
+
+```
+987-123-4567
+(123) 456-7890
+```
+
+Please DM me with ideas for future problems or future themed weeks. When you have completed it post a link to your solution.
+
+*if you have a question about someones solution please use a thread under their posted link*
+
+*Happy Monday Daily Programmer*
+
+An I/O Question that basically builds on Friday's problem.
+
+Write a program that allows a user to guess a name. It should return, `The name is too short`, `The name is too long`, `correct length, you have [amount of correct letters] correct letters`, or `correct`.
+
+```
+output: Please guess a name:
+input: Fred
+output: The name is too long:
+input: Bob
+output: correct length, you have 1 correct letters:
+input: Tom
+output: Correct!
+```
+
+Please DM me with ideas for future problems or future themed weeks. When you have completed it post a link to your solution.
+
+*if you have a question about someones solution please use a thread under their posted link*
+
+*Happy Friday Daily Programmer*
+
+An I/O Question for this morning and one of the first programs I ever wrote.
+
+Write a program that allows a user to guess the number. It should return, `higher`, `lower` or `correct`.
+
+```
+output: Please guess a number:
+input: 4
+output: higher, please guess a number:
+input: 6
+output: lower, please guess a number:
+input: 5
+output: Correct!
+```
+
+Please DM me with ideas for future problems or future themed weeks. When you have completed it post a link to your solution.
+
+*if you have a question about someones solution please use a thread under their posted link*
+
+*Happy Friday Daily Programmer*
+
+This problem is great for new daily_programmer members and daily_programmer vets alike!
+
+Detect if the input is all caps.
+
+```
+checkCapital('PHILLYDEV') => TRUE
+checkCapital('FRI!') => TRUE
+checkCapital('The Weekend') => FALSE
+checkCapital('DailyProgrammer') => FALSE
+```
+
+Please DM me with ideas for future problems or future themed weeks. When you have completed it post a link to your solution.
+
+*if you have a question about someones solution please use a thread under their posted link*
+
+*Happy Thursday Daily Programmer*
+
+Today is an algorithm problem. Given a number set, return all distinct versions of that set, without duplicates. Here's an example:
+
+```
+numberSet = [1, 2, 3]
+
+return values = [
+  [1],
+  [2],
+  [3],
+  [1,2,3],
+  [1,3],
+  [2,3],
+  [1,2],
+]
+```
+
+Please DM me with ideas for future problems or future themed weeks. When you have completed it post a link to your solution. I'll be away from May 30 - June 8th. Is anyone interested in pinch hitting?
+
+*if you have a question about someones solution please use a thread under their posted link*
+
+*Happy Wednesday Daily Programmer*
+
+IO problems continue... Today our challenge is to match Presidents initials with an Atomic Elements SI - Symbol. If the President has a middle initial, if can be ignored. So Harry S Truman's initials would be `HT` and there wouldn't be an initials set that works. Rutherford Hayes would be a match because he's Rhodium, Calvin Coolidge would also be a match because he's Carbon Carbon.
+
+Here is a link to the presidents birthdays. https://github.com/aisflat439/dailyProgrammer/blob/master/data/presidents.csv and here is a link to the elements. https://github.com/aisflat439/dailyProgrammer/blob/master/data/elements.csv
+
+
+Please DM me with ideas for future problems or future themed weeks. When you have completed it post a link to your solution. I'll be away from May 30 - June 8th. Is anyone interested in pinch hitting?
+
+*if you have a question about someones solution please use a thread under their posted link*
+
+*Happy Tuesday Daily Programmer*
+
+IO problems continue... Today our challenge is to find out the atomic weight of the following elements.
+
+H20 - Wudder
+
+CH4 - Methane gas
+
+NH3 - Ammonia
+
+Here is a link to the presidents birthdays. https://github.com/aisflat439/dailyProgrammer/blob/master/data/elements.csv
+
+Please DM me with ideas for future problems or future themed weeks. When you have completed it post a link to your solution. I'll be away from May 30 - June 8th. Is anyone interested in pinch hitting?
+
+*if you have a question about someones solution please use a thread under their posted link*
+
 *Happy Monday Daily Programmer*
 
 IO problems continue this week. Today our challenge is to find out what year had the most presidents alive at the same time.
 
-Good luck!
+Here is a link to the presidents birthdays. https://github.com/aisflat439/dailyProgrammer/blob/master/data/presidents.csv
 
 Please DM me with ideas for future problems or future themed weeks. When you have completed it post a link to your solution. I'll be away from May 30 - June 8th. Is anyone interested in pinch hitting?
 

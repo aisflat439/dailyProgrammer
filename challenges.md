@@ -1,3 +1,22 @@
+*Happy Wednesday Daily Programmer*
+
+Write a program that takes an array of strings and outputs them rows with `x` as a fill letter. If the string ends with `x` like `fox` the next fill letter should become `z`.
+
+```
+outputArray(cow, fox, hound, fish)
+```
+
+```
+cowxx
+foxzx
+hound
+fishx
+```
+
+Please DM me with ideas for future problems or future themed weeks. When you have completed it post a link to your solution.
+
+*if you have a question about someones solution please use a thread under their posted link*
+
 *Happy Tuesday Daily Programmer*
 
 A file I/O Question today.

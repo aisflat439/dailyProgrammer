@@ -3,6 +3,7 @@
 function createSchedule() {
   let schedule = [],
       listOutput = '';
+
   schedule.push(addCoworkersHours('Todd', '3-5'));
   schedule.push(addCoworkersHours('Jane', '1-4'));
   schedule.push(addCoworkersHours('Susan', '11-4'));

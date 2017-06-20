@@ -14,7 +14,8 @@ function getMeetingTime() {
   schedule.push(e);
 
   schedule.forEach((employee) => {
-    listOutput += `${employee.name} is in from ${employee.hours}\n`;
+    // listOutput += `${employee.name} is in from ${employee.hours}\n`;
+    console.log(employee.availableHours);
   });
 
   return listOutput;
@@ -25,6 +26,7 @@ function Employee(name, time) {
   this.time = time;
 
   this.hours = splitHours(this.time)
+  this.availableHours = getAvailableHours(this.time);
 
   function splitHours(hours){
     let shift = hours.split('-');
@@ -37,6 +39,47 @@ function Employee(name, time) {
     }
     return shift;
   }
+
+  function getAvailableHours(hours) {
+    let allHours = [],
+        shift = hours.split('-'),
+        startTime = parseInt(shift.shift()),
+        finishTime = parseInt(shift.pop());
+
+    if (finishTime - startTime < 0) {
+      finishTime += 12;
+    } else {
+      startTime += 12;
+      finishTime += 12;
+    }
+
+    for (let i = startTime; i <= finishTime; i++) {
+      allHours.push(parseInt(i) );
+    }
+
+    return allHours;
+  }
 }
 
 console.log(getMeetingTime());
+
+
+function getAvailableHours(hours) {
+  let allHours = [],
+      shift = hours.split('-'),
+      startTime = parseInt(shift.shift()),
+      finishTime = parseInt(shift.pop());
+
+  if (finishTime - startTime < 0) {
+    finishTime += 12;
+  } else {
+    startTime += 12;
+    finishTime += 12;
+  }
+
+  for (let i = startTime; i <= finishTime; i++) {
+    allHours.push(parseInt(i) );
+  }
+
+  return allHours;
+}

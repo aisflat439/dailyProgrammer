@@ -3,7 +3,10 @@
 function getMeetingTime() {
   let schedule = [],
       listOutput = '',
-      times = [];
+      times = [],
+      bestMeetingTime,
+      meetingEndTime;
+
 
   let e = new Employee('Todd', '3-5');
   schedule.push(e);
@@ -15,24 +18,31 @@ function getMeetingTime() {
   schedule.push(e);
 
   schedule.forEach((employee) => {
-    // listOutput += `${employee.name} is in from ${employee.hours}\n`;
+    listOutput += `${employee.name} is in from ${employee.hours}\n`;
     times = times.concat(employee.availableHours);
   });
 
-  for (var i = 0; i < times.length; i++) {
-    let count = 0;
-    // outer loop
-    for (var k = 0; k < times.length; k++) {
-      // inner loop
-      if (times[i] === k) {
-        count++
-      }
-    }
-    console.log('counts', `${count} is ${i}` );
+  bestMeetingTime = getMostFrequentOccurenceInArray(times);
+
+  if (bestMeetingTime < 11) {
+    meetingEndTime = bestMeetingTime + 1;
+    bestMeetingTime += 'am';
+    meetingEndTime += 'am';
+  } else if (bestMeetingTime === 11){
+    meetingEndTime = bestMeetingTime + 1;
+    bestMeetingTime += 'am';
+    meetingEndTime += 'pm';
+  } else {
+    bestMeetingTime -= 12;
+    meetingEndTime = bestMeetingTime + 1;
+    bestMeetingTime += 'pm';
+    meetingEndTime += 'pm';
   }
 
+  console.log(listOutput);
+  console.log(bestMeetingTime);
 
-  return times;
+  return `${listOutput}The meeting should be scheduled from ${bestMeetingTime} - ${meetingEndTime}`;
 }
 
 function Employee(name, time) {
@@ -96,4 +106,27 @@ function getAvailableHours(hours) {
   }
 
   return allHours;
+}
+
+function getMostFrequentOccurenceInArray(arr) {
+  let count = {},
+      compare = -1,
+      top;
+
+  for (var i = 0; i < arr.length; i++) {
+    let currentHour = arr[i];
+
+    if (count[currentHour] === undefined) {
+      count[currentHour] = 1;
+    } else {
+      count[currentHour] = count[currentHour] + 1;
+    }
+
+    if (count[currentHour] > compare) {
+      compare = count[currentHour];
+      top = arr[i];
+    }
+  }
+
+  return top
 }

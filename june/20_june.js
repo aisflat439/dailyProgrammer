@@ -2,7 +2,8 @@
 
 function getMeetingTime() {
   let schedule = [],
-      listOutput = '';
+      listOutput = '',
+      times = [];
 
   let e = new Employee('Todd', '3-5');
   schedule.push(e);
@@ -15,10 +16,23 @@ function getMeetingTime() {
 
   schedule.forEach((employee) => {
     // listOutput += `${employee.name} is in from ${employee.hours}\n`;
-    console.log(employee.availableHours);
+    times = times.concat(employee.availableHours);
   });
 
-  return listOutput;
+  for (var i = 0; i < times.length; i++) {
+    let count = 0;
+    // outer loop
+    for (var k = 0; k < times.length; k++) {
+      // inner loop
+      if (times[i] === k) {
+        count++
+      }
+    }
+    console.log('counts', `${count} is ${i}` );
+  }
+
+
+  return times;
 }
 
 function Employee(name, time) {

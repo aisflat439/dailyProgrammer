@@ -1,4 +1,40 @@
-*Happy Tuesday Daily Programmer*
+*Happy Thursday Daily Programmer*
+
+_Todays problem builds on this weeks problems, please modify someone else's solution or build your own_
+
+Your boss thinks this works great so far! But he realized that Jane didn't really need to be at the meeting, her attendance was more _nice to have_. Rewrite your program so that any employee whose less vital (Still important but lower weight) is weighted less.
+
+Sample input
+```
+addCoworkersHours('Todd', '9-5', [11, 12, 4]);
+addCoworkersHours('Jane', '9-5', [11, 9, 2], false);
+addCoworkersHours('Susan', '10-5', [10, 12, 3]);
+addCoworkersHours('Frank', '11-5', [1, 11, 12]);
+getMeetingTime();
+```
+output
+```
+The meeting should be scheduled from 12-1pm.
+```
+
+Sample input
+```
+addCoworkersHours('Todd', '9-5', [11, 12, 4]);
+addCoworkersHours('Jane', '9-5', [11, 9, 2], false);
+addCoworkersHours('Susan', '10-5', [10, 4, 12]);
+addCoworkersHours('Frank', '11-5', [1, 11, 12]);
+getMeetingTime();
+```
+output
+```
+The meeting should be scheduled from 11-12pm.
+```
+
+Please DM me with ideas for future problems or future themed weeks. When you have completed it post a link to your solution.
+
+*if you have a question about someones solution please use a thread under their posted link*
+
+*Happy Wednesday Daily Programmer*
 
 _Todays problem builds on yesterdays and Mondays, please modify someone else's solution or build your own_
 

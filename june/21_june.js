@@ -5,6 +5,12 @@ function getMeetingTime() {
       listOutput = '',
       times = [];
 
+      // TODO: Modify Employee to take preferences
+      // addCoworkersHours('Todd', '9-5', [11, 4, 12]);
+      // addCoworkersHours('Jane', '9-5', [9, 11, 2]);
+      // addCoworkersHours('Susan', '10-5',[10, 3, 12]);
+      // addCoworkersHours('Frank', '11-5');
+
   let e = new Employee('Todd', '3-5');
   schedule.push(e);
   e = new Employee('Jane', '1-4');
@@ -23,6 +29,7 @@ function getMeetingTime() {
 }
 
 function Employee(name, time) {
+  // TODO: Maybe take Employee and give them 3 favs.
   this.name = name;
   this.time = time;
 
@@ -61,8 +68,6 @@ function Employee(name, time) {
     return allHours;
   }
 }
-
-console.log(getMeetingTime());
 
 function getAvailableHours(hours) {
   let allHours = [],
@@ -127,3 +132,22 @@ function createMeetingTimeString(startTime) {
 
   return startTime + ' - ' + endTime;
 }
+
+//Takes One Array of preferences
+function getRankedMeetingTimes([11, 3, 5]) {
+  // return a hash of times, with points
+  // so 1st place is 5 points,
+  // second is 3
+  // third is 1
+  // no points for any item in arry past 3
+  //  this should return
+  // {
+
+  // 11:5
+  // 3:3
+  // 5:1
+
+  // }
+}
+
+console.log(getMeetingTime());

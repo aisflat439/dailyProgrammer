@@ -3,9 +3,7 @@
 function getMeetingTime() {
   let schedule = [],
       listOutput = '',
-      times = [],
-      bestMeetingTime,
-      meetingTimeString;
+      times = [];
 
   let e = new Employee('Todd', '3-5');
   schedule.push(e);
@@ -21,29 +19,7 @@ function getMeetingTime() {
     times = times.concat(employee.availableHours);
   });
 
-  bestMeetingTime = getMostFrequentOccurenceInArray(times);
-
-  meetingTimeString = createMeetingTimeString(bestMeetingTime);
-
-  // if (bestMeetingTime < 11) {
-  //   meetingEndTime = bestMeetingTime + 1;
-  //   bestMeetingTime += 'am';
-  //   meetingEndTime += 'am';
-  // } else if (bestMeetingTime === 11){
-  //   meetingEndTime = bestMeetingTime + 1;
-  //   bestMeetingTime += 'am';
-  //   meetingEndTime += 'pm';
-  // } else {
-  //   bestMeetingTime -= 12;
-  //   meetingEndTime = bestMeetingTime + 1;
-  //   bestMeetingTime += 'pm';
-  //   meetingEndTime += 'pm';
-  // }
-
-  // console.log(listOutput);
-  // console.log(bestMeetingTime);
-
-  return `${listOutput}The meeting should be scheduled from ${meetingTimeString}`;
+  return `${listOutput}The meeting should be scheduled from ${createMeetingTimeString(getMostFrequentOccurenceInArray(times))}`;
 }
 
 function Employee(name, time) {

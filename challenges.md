@@ -1,3 +1,50 @@
+*Happy Monday daily_programmer*
+
+Given a bowling game as an array of comma delimited throws, calculate total score.
+
+Bowling Scores are given by the following.
+
+If you do not get all of the pins in the frame, you get the number of pins as your score for that frame. If you get all of the pins on your first try (a strike; denoted as "X"), you get 10 + the total of the next 2 *throws*. A Spare (denoted "/") is 10 + the next throw. If Strike or Spare on the last frame, you get another throw, up to 3 total for all strikes.
+
+```
+calculateScore(["X", "X", "X", "X", "X", "X", "X", "X", "X", "X", "XXX"]) -> 300
+calculateScore(["X", "X", "X", "X", "X", "X", "X", "X", "X", "X", "XX9"]) -> 299
+calculateScore(["9,/", "9,/", "9,/", "9,/", "9,/", "9,/", "9,/", "9,/", "9,/", "9,/,9"]) -> 190
+calculateScore(["1,/", "1,/", "1,/", "1,/", "1,/", "1,/", "1,/", "1,/", "1,/", "1,/,1"]) -> 110
+calculateScore(["1,/", "1,/", "1,/", "1,/", "1,/", "1,/", "1,/", "1,/", "1,/", "1,/,1"]) -> 110
+calculateScore(["X", "9,/", "X", "9,/", "X", "9,/", "X", "9,/", "X", "9,/,X"]) -> 200
+calculateScore(["X", "9,/", "X", "9,/", "X", "9,/", "X", "9,/", "X", "9,/,X"]) -> 200
+calculateScore(["6,3", "7,2", "8,1", "9,0", "X", "5,4", "6,3", "7,2", "8,1", "9,0"]) -> 100
+```
+
+You can find more on scoring and verify more results at http://www.bowlinggenius.com/
+
+Please DM me with ideas for future problems or future themed weeks. When you have completed it post a link to your solution.
+
+*if you have a question about someones solution please use a thread under their posted link*
+
+*Happy Friday Daily Programmer*
+
+A file I/O Question today.
+
+Write a program that validates phone numbers fit one of the following two formats.
+
+```
+(xxx) xxx-xxxx
+xxx-xxx-xxxx
+```
+
+This file (https://github.com/aisflat439/dailyProgrammer/blob/master/data/phoneNumbers.txt) should return:
+
+```
+987-123-4567
+(123) 456-7890
+```
+
+Please DM me with ideas for future problems or future themed weeks. When you have completed it post a link to your solution.
+
+*if you have a question about someones solution please use a thread under their posted link*
+
 *Happy Tuesday Daily Programmer*
 
 A file I/O Question today.
@@ -9,7 +56,7 @@ Write a program that validates phone numbers fit one of the following two format
 xxx-xxx-xxxx
 ```
 
-This file () should return:
+This file (https://github.com/aisflat439/dailyProgrammer/blob/master/data/phoneNumbers.txt) should return:
 
 ```
 987-123-4567

@@ -1,3 +1,26 @@
+*Happy Friday daily_programmer*
+
+For those interested, the mystery of where I posted yesterdays daily_programmer challenge has been solved. It's in a DM to the person who suggested recipe week!
+
+Today you must write a program that allows our Pantry to make a substitution when available. In the pseudo code example the recipe blueberryPancakes has a substitution hash available. If blueberries are out, it can sub in strawberries. When getIngredients(overnightOats) is called, strawberries are returned.
+
+```
+pantry = new Pantry;
+addNewRecipe(blueberryPancakes, {blueberries : strawberries});
+getIngredients(overnightOats);
+=> Flour, blueberries, eggs, milk, baking soda, sugar
+addNewRecipe(overnightOats);
+pantry.remove(blueberries, 2);
+getIngredients(overnightOats);
+=> Oats, strawberries, almond milk, pecans
+pantry.getShoppingList();
+=> Blueberries
+```
+
+Please DM me with ideas for future problems or future themed weeks. When you have completed it post a link to your solution.
+
+*if you have a question about someones solution please use a thread under their posted link*
+
 *Happy Wednesday Daily Programmer*
 
 You must write code that verifies the awarded points for a fictional sport are valid. This sport is a simplification of American Football scoring rules. This means that the score values must be any logical combination of the following four rewards:

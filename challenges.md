@@ -1,4 +1,64 @@
-*Happy Friday daily_programmer*
+*Happy Tuesday daily_programmer*
+
+This is part two of a multi part challenge.
+
+In the game battleship you have to place your boats in valid locations on the board. Please write a function that returns invalid placement if a the location is off the board and shows on the board as `o` for occupied.
+
+```
+placeBoat(5, g, 8, right)
+=> invalid placement
+placeBoat(5, c, 3, right)
+placeBoat(3, g, 4, down)
+printBoard()
+
+   1   2   3   4   5   6   7   8   9  10
+a  u   u   u   u   u   u   u   u   u   u
+b  u   u   u   u   u   u   u   u   u   u
+c  u   u   o   o   o   o   o   u   u   u
+d  u   u   u   u   u   u   u   u   u   u
+e  u   u   u   u   u   u   u   u   u   u
+f  u   u   u   u   u   u   u   u   u   u
+g  u   u   u   o   u   u   u   u   u   u
+h  u   u   u   o   u   u   u   u   u   u
+i  u   u   u   o   u   u   u   u   u   u
+j  u   u   u   u   u   u   u   u   u   u
+
+```
+
+Please DM me with ideas for future problems or future themed weeks. When you have completed it post a link to your solution.
+
+*if you have a question about someones solution please use a thread under their posted link
+
+*Happy Monday daily_programmer*
+
+This is part one of a multi part challenge.
+
+Write a program that prints a board (matrix). The board should have column numbers and rows letters. Spaces should be represented by a `u`
+
+```
+printBoard()
+
+   1   2   3   4   5   6   7   8   9  10
+a  u   u   u   u   u   u   u   u   u   u
+b  u   u   u   u   u   u   u   u   u   u
+c  u   u   u   u   u   u   u   u   u   u
+d  u   u   u   u   u   u   u   u   u   u
+e  u   u   u   u   u   u   u   u   u   u
+f  u   u   u   u   u   u   u   u   u   u
+g  u   u   u   u   u   u   u   u   u   u
+h  u   u   u   u   u   u   u   u   u   u
+i  u   u   u   u   u   u   u   u   u   u
+j  u   u   u   u   u   u   u   u   u   u
+
+```
+
+Please DM me with ideas for future problems or future themed weeks. When you have completed it post a link to your solution.
+
+*if you have a question about someones solution please use a thread under their posted link
+
+**Happy Friday daily_programmer*
+
+
 
 For those interested, the mystery of where I posted yesterdays daily_programmer challenge has been solved. It's in a DM to the person who suggested recipe week!
 

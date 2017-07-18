@@ -21,7 +21,7 @@ function printSquare(number) {
     }
   });
 
-  return printedLine;
+  return printedLine  ;
 }
 
 console.log(printSquare(5));

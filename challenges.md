@@ -1,5 +1,75 @@
 *Happy Tuesday daily_programmer*
 
+Note: By all means use a library for any daily_programmer task, this is encouraged.
+
+JSON has 6 types, `string` `number` `object` `array` `boolean` and `null`. Please write a program that takes a JSON string and outputs which types it contains.
+
+```
+{
+  "name": "Devin",
+  "age": 38,
+  "hasPets": true  
+}
+
+=> This JSON object has strings, numbers, and booleans
+
+{
+  "name": "Devin",
+  "age": 38,
+  "hasPets": true,  
+  "petNames": [
+    "Joey",
+    "Tuna",
+    "Seven"
+  ]
+}
+
+=> This JSON object has strings, numbers, booleans, and arrays
+```
+
+Please DM me with ideas for future problems or future themed weeks. When you have completed it post a link to your solution.
+
+*if you have a question about someones solution please use a thread under their posted link
+
+*Happy Wednesday daily_programmer*
+
+This is part three of a multi part challenge.
+
+In our game battleship we will have to play an opponent. Please write a function that creates an opponents board with ships of the following types:
+
+```
+# Class of ship Size
+1 Carrier          5
+2 Battleship       4
+2 Cruiser          3
+2 Destroyer        2
+```
+
+The more random the opponent board the better. Valid moves are within the borders and spaces cannot be occupied by two ships at once.
+
+```
+createOpponentBoard()
+printOpponentBoard()
+
+   1   2   3   4   5   6   7   8   9  10
+a  o   u   u   u   u   u   o   o   u   u
+b  o   u   u   u   u   u   u   u   u   o
+c  o   u   o   o   o   o   o   u   u   o
+e  o   u   u   u   u   u   u   u   u   u
+f  u   u   u   u   u   u   u   u   u   u
+g  u   u   u   o   u   u   u   u   u   u
+h  u   u   u   o   u   o   o   o   o   u
+i  u   u   u   o   u   u   u   u   u   u
+j  o   o   o   u   u   u   u   u   u   u
+
+```
+
+Please DM me with ideas for future problems or future themed weeks. When you have completed it post a link to your solution.
+
+*if you have a question about someones solution please use a thread under their posted link
+
+*Happy Tuesday daily_programmer*
+
 This is part two of a multi part challenge.
 
 In the game battleship you have to place your boats in valid locations on the board. Please write a function that returns invalid placement if a the location is off the board and shows on the board as `o` for occupied.

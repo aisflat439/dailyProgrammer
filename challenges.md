@@ -1,5 +1,6 @@
 *Happy Tuesday daily_programmer*
 
+<<<<<<< HEAD
 Today's problem is part of a 3 day set. 
 
 Please write a function that returns the output of an number integer in binary and prints the longest non zero streak.
@@ -764,11 +765,17 @@ Please DM me with ideas for future problems or future themed weeks. When you hav
 *Happy Friday daily_programmer*
 
 Our last problem this week is a JSON Validity tester. Write a function that tests if our JSON is valid.
+=======
+Note: By all means use a library for any daily_programmer task, this is encouraged.
+
+JSON has 6 types, `string` `number` `object` `array` `boolean` and `null`. Please write a program that takes a JSON string and outputs which types it contains.
+>>>>>>> ec1f95974c6b3c1b306dba59ba011ee31c38fa2d
 
 ```
 {
   "name": "Devin",
   "age": 38,
+<<<<<<< HEAD
   "hasPets": true,  
   "petNames": [
     "Joey",
@@ -788,6 +795,13 @@ VALID
 ```
 
 ```
+=======
+  "hasPets": true  
+}
+
+=> This JSON object has strings, numbers, and booleans
+
+>>>>>>> ec1f95974c6b3c1b306dba59ba011ee31c38fa2d
 {
   "name": "Devin",
   "age": 38,
@@ -796,6 +810,7 @@ VALID
     "Joey",
     "Tuna",
     "Seven"
+<<<<<<< HEAD
   ,
   "favorites" : {
     "colors": null,
@@ -807,10 +822,17 @@ VALID
 }
 
 INVALID
+=======
+  ]
+}
+
+=> This JSON object has strings, numbers, booleans, and arrays
+>>>>>>> ec1f95974c6b3c1b306dba59ba011ee31c38fa2d
 ```
 
 Please DM me with ideas for future problems or future themed weeks. When you have completed it post a link to your solution.
 
+<<<<<<< HEAD
 *if you have a question about someones solution please use a thread under their posted link*
 
 *Happy Thursday daily_programmer*
@@ -987,6 +1009,96 @@ e  u   u   e   u   u   u   u   u   u   u
 f  u   u   u   u   u   u   u   u   u   u
 g  u   u   u   u   u   u   u   u   u   u
 h  u   u   u   e   u   h   h   u   u   u
+=======
+*if you have a question about someones solution please use a thread under their posted link
+
+*Happy Wednesday daily_programmer*
+
+This is part three of a multi part challenge.
+
+In our game battleship we will have to play an opponent. Please write a function that creates an opponents board with ships of the following types:
+
+```
+# Class of ship Size
+1 Carrier          5
+2 Battleship       4
+2 Cruiser          3
+2 Destroyer        2
+```
+
+The more random the opponent board the better. Valid moves are within the borders and spaces cannot be occupied by two ships at once.
+
+```
+createOpponentBoard()
+printOpponentBoard()
+
+   1   2   3   4   5   6   7   8   9  10
+a  o   u   u   u   u   u   o   o   u   u
+b  o   u   u   u   u   u   u   u   u   o
+c  o   u   o   o   o   o   o   u   u   o
+e  o   u   u   u   u   u   u   u   u   u
+f  u   u   u   u   u   u   u   u   u   u
+g  u   u   u   o   u   u   u   u   u   u
+h  u   u   u   o   u   o   o   o   o   u
+i  u   u   u   o   u   u   u   u   u   u
+j  o   o   o   u   u   u   u   u   u   u
+
+```
+
+Please DM me with ideas for future problems or future themed weeks. When you have completed it post a link to your solution.
+
+*if you have a question about someones solution please use a thread under their posted link
+
+*Happy Tuesday daily_programmer*
+
+This is part two of a multi part challenge.
+
+In the game battleship you have to place your boats in valid locations on the board. Please write a function that returns invalid placement if a the location is off the board and shows on the board as `o` for occupied.
+
+```
+placeBoat(5, g, 8, right)
+=> invalid placement
+placeBoat(5, c, 3, right)
+placeBoat(3, g, 4, down)
+printBoard()
+
+   1   2   3   4   5   6   7   8   9  10
+a  u   u   u   u   u   u   u   u   u   u
+b  u   u   u   u   u   u   u   u   u   u
+c  u   u   o   o   o   o   o   u   u   u
+d  u   u   u   u   u   u   u   u   u   u
+e  u   u   u   u   u   u   u   u   u   u
+f  u   u   u   u   u   u   u   u   u   u
+g  u   u   u   o   u   u   u   u   u   u
+h  u   u   u   o   u   u   u   u   u   u
+i  u   u   u   o   u   u   u   u   u   u
+j  u   u   u   u   u   u   u   u   u   u
+
+```
+
+Please DM me with ideas for future problems or future themed weeks. When you have completed it post a link to your solution.
+
+*if you have a question about someones solution please use a thread under their posted link
+
+*Happy Monday daily_programmer*
+
+This is part one of a multi part challenge.
+
+Write a program that prints a board (matrix). The board should have column numbers and rows letters. Spaces should be represented by a `u`
+
+```
+printBoard()
+
+   1   2   3   4   5   6   7   8   9  10
+a  u   u   u   u   u   u   u   u   u   u
+b  u   u   u   u   u   u   u   u   u   u
+c  u   u   u   u   u   u   u   u   u   u
+d  u   u   u   u   u   u   u   u   u   u
+e  u   u   u   u   u   u   u   u   u   u
+f  u   u   u   u   u   u   u   u   u   u
+g  u   u   u   u   u   u   u   u   u   u
+h  u   u   u   u   u   u   u   u   u   u
+>>>>>>> ec1f95974c6b3c1b306dba59ba011ee31c38fa2d
 i  u   u   u   u   u   u   u   u   u   u
 j  u   u   u   u   u   u   u   u   u   u
 
@@ -994,6 +1106,7 @@ j  u   u   u   u   u   u   u   u   u   u
 
 Please DM me with ideas for future problems or future themed weeks. When you have completed it post a link to your solution.
 
+<<<<<<< HEAD
 *if you have a question about someones solution please use a thread under their posted link*
 
 
@@ -1105,12 +1218,34 @@ getIngredients(overnightOats);
 addNewRecipe(overnightOats);
 getIngredients(overnightOats);
 => Oats, blueberries, almond milk, pecans
+=======
+*if you have a question about someones solution please use a thread under their posted link
+
+**Happy Friday daily_programmer*
+
+
+
+For those interested, the mystery of where I posted yesterdays daily_programmer challenge has been solved. It's in a DM to the person who suggested recipe week!
+
+Today you must write a program that allows our Pantry to make a substitution when available. In the pseudo code example the recipe blueberryPancakes has a substitution hash available. If blueberries are out, it can sub in strawberries. When getIngredients(overnightOats) is called, strawberries are returned.
+
+```
+pantry = new Pantry;
+addNewRecipe(blueberryPancakes, {blueberries : strawberries});
+getIngredients(overnightOats);
+=> Flour, blueberries, eggs, milk, baking soda, sugar
+addNewRecipe(overnightOats);
+pantry.remove(blueberries, 2);
+getIngredients(overnightOats);
+=> Oats, strawberries, almond milk, pecans
+>>>>>>> ec1f95974c6b3c1b306dba59ba011ee31c38fa2d
 pantry.getShoppingList();
 => Blueberries
 ```
 
 Please DM me with ideas for future problems or future themed weeks. When you have completed it post a link to your solution.
 
+<<<<<<< HEAD
 *Happy Wednesday daily_programmer!*
 
 Today begins a multi-step daily_programmer.
@@ -1179,11 +1314,34 @@ returns 7 * 3 + 100 * 7 + 25 + 9 = 881
 6 75 3 25 50 100 952
 returns 100 + 6 * 3 * 75 - 50 / 25 = 952
 ```
+=======
+*if you have a question about someones solution please use a thread under their posted link*
+
+*Happy Wednesday Daily Programmer*
+
+You must write code that verifies the awarded points for a fictional sport are valid. This sport is a simplification of American Football scoring rules. This means that the score values must be any logical combination of the following four rewards:
+
+-6 points for a "touch-down"
+-3 points for a "field-goal"
+-1 point for an "extra-point"; can only be rewarded after a touch-down. Mutually-exclusive with "two-point conversion"
+-2 points for a "two-point conversion"; can only be rewarded after a touch-down. Mutually-exclusive with "extra-point"
+-*this game version doesn't have a safety*
+
+A valid score could be 7, which can come from a single "touch-down" and then an "extra-point". Another example could be 6, from either a single "touch-down" or two "field-goals". 4 is not a valid score, since it cannot be formed by any well-combined rewards.
+
+Please validate the following scores:
+-35
+-2
+-11
+-13
+
+>>>>>>> ec1f95974c6b3c1b306dba59ba011ee31c38fa2d
 
 Please DM me with ideas for future problems or future themed weeks. When you have completed it post a link to your solution.
 
 *if you have a question about someones solution please use a thread under their posted link*
 
+<<<<<<< HEAD
 *Happy actually Wednesday this time daily_programmer!*
 
 For this challenge we will be using the tile set from the English edition, which has 100 tiles total. Here's a reference for the distribution and point value of each tile.
@@ -1287,6 +1445,21 @@ This file (https://github.com/aisflat439/dailyProgrammer/blob/master/data/phoneN
 ```
 987-123-4567
 (123) 456-7890
+=======
+*Happy Wednesday Daily Programmer*
+
+Write a program that takes an array of strings and outputs them rows with `x` as a fill letter. If the string ends with `x` like `fox` the next fill letter should become `z`.
+
+```
+outputArray(cow, fox, hound, fish)
+```
+
+```
+cowxx
+foxzx
+hound
+fishx
+>>>>>>> ec1f95974c6b3c1b306dba59ba011ee31c38fa2d
 ```
 
 Please DM me with ideas for future problems or future themed weeks. When you have completed it post a link to your solution.

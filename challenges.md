@@ -1,6 +1,5 @@
 *Happy Tuesday daily_programmer*
 
-<<<<<<< HEAD
 Today's problem is part of a 3 day set. 
 
 Please write a function that returns the output of an number integer in binary and prints the longest non zero streak.
@@ -765,11 +764,9 @@ Please DM me with ideas for future problems or future themed weeks. When you hav
 *Happy Friday daily_programmer*
 
 Our last problem this week is a JSON Validity tester. Write a function that tests if our JSON is valid.
-=======
 Note: By all means use a library for any daily_programmer task, this is encouraged.
 
 JSON has 6 types, `string` `number` `object` `array` `boolean` and `null`. Please write a program that takes a JSON string and outputs which types it contains.
->>>>>>> ec1f95974c6b3c1b306dba59ba011ee31c38fa2d
 
 ```
 {

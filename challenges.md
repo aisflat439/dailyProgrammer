@@ -8,13 +8,16 @@ Please write a function that returns the output of an number integer in binary a
 getValueInBinary(142)
 => 10001110
 => longest streak is "111" (a streak of three ones)
+=> location is 2^1
 getValueInBinary(48)
 => 110000
 => Longest streak is "11" (a streak of two ones)
+=> location is 2^4
 getValueInBinary(750)
 => 1011101110
 // note no need to print that there are two streaks
 => Longest streak is "111" (a streak of three ones)
+=> locations are 2^1, 2^5
 ```
 
 *Please DM me with ideas for future problems or future themed weeks. When you have completed it post a link to your solution.*

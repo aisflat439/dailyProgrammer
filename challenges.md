@@ -1,8 +1,142 @@
+*Happy Friday daily_programmer*
+
+Write a program that takes a string and outputs a the zero based index of that string.
+
+`getZeroBasedIndex('phillydev')`
+
+```
+d 6
+e 7
+i 2
+l 3 4
+p 0
+v 5 
+y 8
+```
+
+*Please DM me with ideas for future problems or future themed weeks. When you have completed it post a link to your solution.*
+*if you have a question about someones solution please use a thread under their posted link.*
+
+*Happy Thursday daily_programmer*
+
+Write a program that takes a string and outputs a skyline version of that string.
+
+`createSkyline('a man, a plan, a canal, panama')`
+
+```
+a
+a
+a
+a
+a
+a
+a  n
+a  n
+a mnp
+acmnp
+```
+
+*Please DM me with ideas for future problems or future themed weeks. When you have completed it post a link to your solution.*
+*if you have a question about someones solution please use a thread under their posted link.*
+
+*Happy Wednesday daily_programmer*
+
+Write a program that divides a string into [n] number of parts leaving a remainder outside of of the returned array.
+
+```
+divideString('phillydev', 3)
+=> "phi", "lly", "dev"
+divideString('phillydev', 2)
+=> ["ph", "il", "ly", "de"], "v"
+```
+
+*Please DM me with ideas for future problems or future themed weeks. When you have completed it post a link to your solution.*
+*if you have a question about someones solution please use a thread under their posted link.*
+
 *Happy Tuesday daily_programmer*
+
+We've written palindrome testers before. But there are some non-obvious palindrome situations, like...
+
+```
+isPalindrome('()()')
+=> false
+```
+
+That is symetric. Please write a function that tests if a string is symetrical. 
+
+```
+isSymetrical('()()')
+=> true
+isSymetrical('()()()')
+=> true
+isSymetrical('[A + A]')
+=> true
+isSymetrical('WOW ! WOW')
+=> true
+isSymetrical('())(')
+=> false
+isSymetrical('((B))')
+=> false
+isSymetrical('11')
+=> false
+```
+
+Note: These characters are individually symetrical
+`!"'+*-.:=AHIMOTUVWXY^_ovwx|`
+Note: These characters are pair symetrical
+`()<>[]{}qpbd/\`
+
+*Please DM me with ideas for future problems or future themed weeks. When you have completed it post a link to your solution.*
+*if you have a question about someones solution please use a thread under their posted link.*
+
+*Happy Monday daily_programmer*
+
+Write a program that removes spaces from a string one by one, outputting the results. For the example the `.` represents a space.
+
+```
+removeOneSpaceAtATime('......phillydev....')
+.....phillydev....
+.....phillydev...
+....phillydev...
+....phillydev..
+...phillydev..
+...philldev.
+..phillydev.
+..phillydev
+.phillydev
+phillydev
+```
+
+*Please DM me with ideas for future problems or future themed weeks. When you have completed it post a link to your solution.*
+*if you have a question about someones solution please use a thread under their posted link.*
+
+*Happy Thursday daily_programmer*
+
+The following is an insignifigant array. All it's corresponding absolute differences are <=1.
+
+```
+[1, 2, 3, 4, 3, 4, 5, 5, 5, 4]
+   [1, 1, 1, 1, 1, 1, 0, 0, 1]
+```
+
+Please write a program that tests signifigance, as it relates to arrays.
+
+```
+[1, 2, 3, 4, 5, 6, 7, 8, 9, 8] -> true
+[3, 3, 3, 3, 3, 3, 3]          -> true
+[3, 4, 4, 4, 3, 3, 3, 4, 4, 4] -> true
+[1, 3, 5, 7, 9, 7, 5, 3, 1]    -> false
+[1, 1, 1, 2, 3, 4, 5, 6, 19]   -> false
+```
+
+*Please DM me with ideas for future problems or future themed weeks. When you have completed it post a link to your solution.*
+*if you have a question about someones solution please use a thread under their posted link.*
+
+*Happy Wednesday daily_programmer*
 
 Today's problem is part of a 3 day set. 
 
-Please write a function that returns the output of an number integer in binary and prints the longest non zero streak.
+Please write a function that returns the output of an number integer in binary, prints the longest non zero streak, and prints the location where the streak is.
 
 ```
 getValueInBinary(142)

@@ -1,5 +1,906 @@
+*Happy Friday daily_programmer*
+
+Write a program that takes a string and outputs a the zero based index of that string.
+
+`getZeroBasedIndex('phillydev')`
+
+```
+d 6
+e 7
+i 2
+l 3 4
+p 0
+v 5 
+y 8
+```
+
+*Please DM me with ideas for future problems or future themed weeks. When you have completed it post a link to your solution.*
+*if you have a question about someones solution please use a thread under their posted link.*
+
+*Happy Thursday daily_programmer*
+
+Write a program that takes a string and outputs a skyline version of that string.
+
+`createSkyline('a man, a plan, a canal, panama')`
+
+```
+a
+a
+a
+a
+a
+a
+a  n
+a  n
+a mnp
+acmnp
+```
+
+*Please DM me with ideas for future problems or future themed weeks. When you have completed it post a link to your solution.*
+*if you have a question about someones solution please use a thread under their posted link.*
+
+*Happy Wednesday daily_programmer*
+
+Write a program that divides a string into [n] number of parts leaving a remainder outside of of the returned array.
+
+```
+divideString('phillydev', 3)
+=> "phi", "lly", "dev"
+divideString('phillydev', 2)
+=> ["ph", "il", "ly", "de"], "v"
+```
+
+*Please DM me with ideas for future problems or future themed weeks. When you have completed it post a link to your solution.*
+*if you have a question about someones solution please use a thread under their posted link.*
+
 *Happy Tuesday daily_programmer*
 
+We've written palindrome testers before. But there are some non-obvious palindrome situations, like...
+
+```
+isPalindrome('()()')
+=> false
+```
+
+That is symetric. Please write a function that tests if a string is symetrical. 
+
+```
+isSymetrical('()()')
+=> true
+isSymetrical('()()()')
+=> true
+isSymetrical('[A + A]')
+=> true
+isSymetrical('WOW ! WOW')
+=> true
+isSymetrical('())(')
+=> false
+isSymetrical('((B))')
+=> false
+isSymetrical('11')
+=> false
+```
+
+Note: These characters are individually symetrical
+`!"'+*-.:=AHIMOTUVWXY^_ovwx|`
+Note: These characters are pair symetrical
+`()<>[]{}qpbd/\`
+
+*Please DM me with ideas for future problems or future themed weeks. When you have completed it post a link to your solution.*
+*if you have a question about someones solution please use a thread under their posted link.*
+
+*Happy Monday daily_programmer*
+
+Write a program that removes spaces from a string one by one, outputting the results. For the example the `.` represents a space.
+
+```
+removeOneSpaceAtATime('......phillydev....')
+.....phillydev....
+.....phillydev...
+....phillydev...
+....phillydev..
+...phillydev..
+...philldev.
+..phillydev.
+..phillydev
+.phillydev
+phillydev
+```
+
+*Please DM me with ideas for future problems or future themed weeks. When you have completed it post a link to your solution.*
+*if you have a question about someones solution please use a thread under their posted link.*
+
+*Happy Thursday daily_programmer*
+
+The following is an insignifigant array. All it's corresponding absolute differences are <=1.
+
+```
+[1, 2, 3, 4, 3, 4, 5, 5, 5, 4]
+   [1, 1, 1, 1, 1, 1, 0, 0, 1]
+```
+
+Please write a program that tests signifigance, as it relates to arrays.
+
+```
+[1, 2, 3, 4, 5, 6, 7, 8, 9, 8] -> true
+[3, 3, 3, 3, 3, 3, 3]          -> true
+[3, 4, 4, 4, 3, 3, 3, 4, 4, 4] -> true
+[1, 3, 5, 7, 9, 7, 5, 3, 1]    -> false
+[1, 1, 1, 2, 3, 4, 5, 6, 19]   -> false
+```
+
+*Please DM me with ideas for future problems or future themed weeks. When you have completed it post a link to your solution.*
+*if you have a question about someones solution please use a thread under their posted link.*
+
+*Happy Wednesday daily_programmer*
+
+Today's problem is part of a 3 day set. 
+
+Please write a function that returns the output of an number integer in binary, prints the longest non zero streak, and prints the location where the streak is.
+
+```
+getValueInBinary(142)
+=> 10001110
+=> longest streak is "111" (a streak of three ones)
+=> location is 2^1
+getValueInBinary(48)
+=> 110000
+=> Longest streak is "11" (a streak of two ones)
+=> location is 2^4
+getValueInBinary(750)
+=> 1011101110
+// note no need to print that there are two streaks
+=> Longest streak is "111" (a streak of three ones)
+=> locations are 2^1, 2^5
+```
+
+*Please DM me with ideas for future problems or future themed weeks. When you have completed it post a link to your solution.*
+*if you have a question about someones solution please use a thread under their posted link.*
+
+*Happy Monday daily_programmer*
+
+Today's problem is part of a 3 day set. 
+
+Please write a function that returns the output of an number integer in binary.
+
+```
+getValueInBinary(142)
+=> 10001110
+getValueInBinary(48)
+=> 110000
+getValueInBinary(750)
+=> 1011101110
+```
+
+*Please DM me with ideas for future problems or future themed weeks. When you have completed it post a link to your solution.*
+*if you have a question about someones solution please use a thread under their posted link.*
+
+*Happy Friday daily_programmer*
+
+*2 Challenges today*
+
+A) Standard Challenge:
+
+Please print the following text:
+
+```
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+zyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyz
+zyxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxyz
+zyxwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwxyz
+zyxwvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvwxyz
+zyxwvuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuvwxyz
+zyxwvutttttttttttttttttttttttttttttttttttttttuvwxyz
+zyxwvytssssssssssssssssssssssssssssssssssssstuvwxyz
+zyxwvytsrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrstuvwxyz
+zyxwvytsrqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqrstuvwxyz
+zyxwvytsrqpppppppppppppppppppppppppppppppqrstuvwxyz
+zyxwvytsrqpooooooooooooooooooooooooooooooqrstuvwxyz
+zyxwvytsrqponnnnnnnnnnnnnnnnnnnnnnnnnnnooqrstuvwxyz
+zyxwvytsrqponmmmmmmmmmmmmmmmmmmmmmmmmmnooqrstuvwxyz
+zyxwvytsrqponmlllllllllllllllllllllllmnooqrstuvwxyz
+zyxwvytsrqponmlkkkkkkkkkkkkkkkkkkkkklmnooqrstuvwxyz
+zyxwvytsrqponmlkjjjjjjjjjjjjjjjjjjjklmnooqrstuvwxyz
+zyxwvytsrqponmlkjiiiiiiiiiiiiiiiiijklmnooqrstuvwxyz
+zyxwvytsrqponmlkjihhhhhhhhhhhhhhhijklmnooqrstuvwxyz
+zyxwvytsrqponmlkjihggggggggggggghijklmnooqrstuvwxyz
+zyxwvytsrqponmlkjihgfffffffffffghijklmnooqrstuvwxyz
+zyxwvytsrqponmlkjihgfeeeeeeeeefghijklmnooqrstuvwxyz
+zyxwvytsrqponmlkjihgfedddddddefghijklmnooqrstuvwxyz
+zyxwvytsrqponmlkjihgfedcccccdefghijklmnooqrstuvwxyz
+zyxwvytsrqponmlkjihgfedcbbbcdefghijklmnooqrstuvwxyz
+zyxwvytsrqponmlkjihgfedcbabcdefghijklmnooqrstuvwxyz
+```
+
+B) Fun Challenge:
+
+Please take any of the letter printing challenges from this week and solve in as many lines of code as possible while still solving the problem in a programatic way.
+*restrictions* 
+You can't just print lines. 
+Don't create wholy unnecesary functions. 
+A programmer working on this project should be able to understand and maintain your solution.
+
+*Please DM me with ideas for future problems or future themed weeks. When you have completed it post a link to your solution.*
+*if you have a question about someones solution please use a thread under their posted link.*
+
+*Happy Thursday daily_programmer*
+
+Please print the following text:
+
+```
+bcdefghijklmnopqrstuvwxyzazyxwvutsrqponmlkjihgfedcb
+cdefghijklmnopqrstuvwxyzabazyxwvutsrqponmlkjihgfedc
+defghijklmnopqrstuvwxyzabcbazyxwvutsrqponmlkjihgfed
+efghijklmnopqrstuvwxyzabcdcbazyxwvutsrqponmlkjihgfe
+fghijklmnopqrstuvwxyzabcdedcbazyxwvutsrqponmlkjihgf
+ghijklmnopqrstuvwxyzabcdefedcbazyxwvutsrqponmlkjihg
+hijklmnopqrstuvwxyzabcdefgfedcbazyxwvutsrqponmlkjih
+ijklmnopqrstuvwxyzabcdefghgfedcbazyxwvutsrqponmlkji
+jklmnopqrstuvwxyzabcdefghihgfedcbazyxwvutsrqponmlkj
+klmnopqrstuvwxyzabcdefghijihgfedcbazyxwvutsrqponmlk
+lmnopqrstuvwxyzabcdefghijkjihgfedcbazyxwvutsrqponml
+mnopqrstuvwxyzabcdefghijklkjihgfedcbazyxwvutsrqponm
+nopqrstuvwxyzabcdefghijklmlkjihgfedcbazyxwvutsrqpon
+opqrstuvwxyzabcdefghijklmnmlkjihgfedcbazyxwvutsrqpo
+pqrstuvwxyzabcdefghijklmnonmlkjihgfedcbazyxwvutsrqp
+qrstuvwxyzabcdefghijklmnoponmlkjihgfedcbazyxwvutsrq
+rstuvwxyzabcdefghijklmnopqponmlkjihgfedcbazyxwvutsr
+stuvwxyzabcdefghijklmnopqrqponmlkjihgfedcbazyxwvuts
+tuvwxyzabcdefghijklmnopqrsrqponmlkjihgfedcbazyxwvut
+uvwxyzabcdefghijklmnopqrstsrqponmlkjihgfedcbazyxwvu
+vwxyzabcdefghijklmnopqrstutsrqponmlkjihgfedcbazyxwv
+wxyzabcdefghijklmnopqrstuvutsrqponmlkjihgfedcbazyxw
+xyzabcdefghijklmnopqrstuvwvutsrqponmlkjihgfedcbazyx
+yzabcdefghijklmnopqrstuvwxwvutsrqponmlkjihgfedcbazy
+zabcdefghijklmnopqrstuvwxyxwvutsrqponmlkjihgfedcbaz
+abcdefghijklmnopqrstuvwxyzyxwvutsrqponmlkjihgfedcba
+bcdefghijklmnopqrstuvwxyzazyxwvutsrqponmlkjihgfedcb
+abcdefghijklmnopqrstuvwxyzyxwvutsrqponmlkjihgfedcba
+zabcdefghijklmnopqrstuvwxyxwvutsrqponmlkjihgfedcbaz
+yzabcdefghijklmnopqrstuvwxwvutsrqponmlkjihgfedcbazy
+xyzabcdefghijklmnopqrstuvwvutsrqponmlkjihgfedcbazyx
+wxyzabcdefghijklmnopqrstuvutsrqponmlkjihgfedcbazyxw
+vwxyzabcdefghijklmnopqrstutsrqponmlkjihgfedcbazyxwv
+uvwxyzabcdefghijklmnopqrstsrqponmlkjihgfedcbazyxwvu
+tuvwxyzabcdefghijklmnopqrsrqponmlkjihgfedcbazyxwvut
+stuvwxyzabcdefghijklmnopqrqponmlkjihgfedcbazyxwvuts
+rstuvwxyzabcdefghijklmnopqponmlkjihgfedcbazyxwvutsr
+qrstuvwxyzabcdefghijklmnoponmlkjihgfedcbazyxwvutsrq
+pqrstuvwxyzabcdefghijklmnonmlkjihgfedcbazyxwvutsrqp
+opqrstuvwxyzabcdefghijklmnmlkjihgfedcbazyxwvutsrqpo
+nopqrstuvwxyzabcdefghijklmlkjihgfedcbazyxwvutsrqpon
+mnopqrstuvwxyzabcdefghijklkjihgfedcbazyxwvutsrqponm
+lmnopqrstuvwxyzabcdefghijkjihgfedcbazyxwvutsrqponml
+klmnopqrstuvwxyzabcdefghijihgfedcbazyxwvutsrqponmlk
+jklmnopqrstuvwxyzabcdefghihgfedcbazyxwvutsrqponmlkj
+ijklmnopqrstuvwxyzabcdefghgfedcbazyxwvutsrqponmlkji
+hijklmnopqrstuvwxyzabcdefgfedcbazyxwvutsrqponmlkjih
+ghijklmnopqrstuvwxyzabcdefedcbazyxwvutsrqponmlkjihg
+fghijklmnopqrstuvwxyzabcdedcbazyxwvutsrqponmlkjihgf
+efghijklmnopqrstuvwxyzabcdcbazyxwvutsrqponmlkjihgfe
+defghijklmnopqrstuvwxyzabcbazyxwvutsrqponmlkjihgfed
+cdefghijklmnopqrstuvwxyzabazyxwvutsrqponmlkjihgfedc
+bcdefghijklmnopqrstuvwxyzazyxwvutsrqponmlkjihgfedcb
+```
+
+*Please DM me with ideas for future problems or future themed weeks. When you have completed it post a link to your solution.*
+*if you have a question about someones solution please use a thread under their posted link.*
+
+*Happy Wednesday daily_programmer*
+
+Please print the following text:
+
+```
+A
+BCD
+EFGHI
+JKLMNOP
+QRSTUVWXY
+ZABCDEFGHIJ
+KLMNOPQRSTUVW
+XYZABCDEFGHIJKL
+MNOPQRSTUVWXYZABC
+DEFGHIJKLMNOPQRSTUV
+WXYZABCDEFGHIJKLMNOPQ
+RSTUVWXYZABCDEFGHIJKLMN
+OPQRSTUVWXYZABCDEFGHIJKLM
+NOPQRSTUVWXYZABCDEFGHIJKLMN
+OPQRSTUVWXYZABCDEFGHIJKLMNOPQ
+RSTUVWXYZABCDEFGHIJKLMNOPQRSTUV
+WXYZABCDEFGHIJKLMNOPQRSTUVWXYZABC
+DEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKL
+MNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVW
+XYZABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJ
+KLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXY
+ZABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOP
+QRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHI
+JKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXYZABCD
+EFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXYZA
+BCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXYZ
+```
+
+*Please DM me with ideas for future problems or future themed weeks. When you have completed it post a link to your solution.*
+*if you have a question about someones solution please use a thread under their posted link.*
+
+*Happy Tuesday daily_programmer*
+
+Please print the following text:
+
+```
+A
+ABA
+ABCBA
+ABCDCBA
+ABCDEDCBA
+ABCDEFEDCBA
+ABCDEFGFEDCBA
+ABCDEFGHGFEDCBA
+ABCDEFGHIHGFEDCBA
+ABCDEFGHIJIHGFEDCBA
+ABCDEFGHIJKJIHGFEDCBA
+ABCDEFGHIJKLKJIHGFEDCBA
+ABCDEFGHIJKLMLKJIHGFEDCBA
+ABCDEFGHIJKLMNMLKJIHGFEDCBA
+ABCDEFGHIJKLMNONMLKJIHGFEDCBA
+ABCDEFGHIJKLMNOPONMLKJIHGFEDCBA
+ABCDEFGHIJKLMNOPQPONMLKJIHGFEDCBA
+ABCDEFGHIJKLMNOPQRQPONMLKJIHGFEDCBA
+ABCDEFGHIJKLMNOPQRSRQPONMLKJIHGFEDCBA
+ABCDEFGHIJKLMNOPQRSTSRQPONMLKJIHGFEDCBA
+ABCDEFGHIJKLMNOPQRSTUTSRQPONMLKJIHGFEDCBA
+ABCDEFGHIJKLMNOPQRSTUVUTSRQPONMLKJIHGFEDCBA
+ABCDEFGHIJKLMNOPQRSTUVWVUTSRQPONMLKJIHGFEDCBA
+ABCDEFGHIJKLMNOPQRSTUVWXWVUTSRQPONMLKJIHGFEDCBA
+ABCDEFGHIJKLMNOPQRSTUVWXYXWVUTSRQPONMLKJIHGFEDCBA
+ABCDEFGHIJKLMNOPQRSTUVWXYZYXWVUTSRQPONMLKJIHGFEDCBA
+ABCDEFGHIJKLMNOPQRSTUVWXYXWVUTSRQPONMLKJIHGFEDCBA
+ABCDEFGHIJKLMNOPQRSTUVWXWVUTSRQPONMLKJIHGFEDCBA
+ABCDEFGHIJKLMNOPQRSTUVWVUTSRQPONMLKJIHGFEDCBA
+ABCDEFGHIJKLMNOPQRSTUVUTSRQPONMLKJIHGFEDCBA
+ABCDEFGHIJKLMNOPQRSTUTSRQPONMLKJIHGFEDCBA
+ABCDEFGHIJKLMNOPQRSTSRQPONMLKJIHGFEDCBA
+ABCDEFGHIJKLMNOPQRSRQPONMLKJIHGFEDCBA
+ABCDEFGHIJKLMNOPQRQPONMLKJIHGFEDCBA
+ABCDEFGHIJKLMNOPQPONMLKJIHGFEDCBA
+ABCDEFGHIJKLMNOPONMLKJIHGFEDCBA
+ABCDEFGHIJKLMNONMLKJIHGFEDCBA
+ABCDEFGHIJKLMNMLKJIHGFEDCBA
+ABCDEFGHIJKLMLKJIHGFEDCBA
+ABCDEFGHIJKLKJIHGFEDCBA
+ABCDEFGHIJKJIHGFEDCBA
+ABCDEFGHIJIHGFEDCBA
+ABCDEFGHIHGFEDCBA
+ABCDEFGHGFEDCBA
+ABCDEFGFEDCBA
+ABCDEFEDCBA
+ABCDEDCBA
+ABCDCBA
+ABCBA
+ABA
+A
+```
+
+*Please DM me with ideas for future problems or future themed weeks. When you have completed it post a link to your solution.*
+*if you have a question about someones solution please use a thread under their posted link.*
+
+*Happy Monday daily_programmer*
+
+Write a program that tests if a word is a `strong` word or not. A `strong` word is defined as a word where every consonant is followed by a vowel. Strong words can however start with a vowel.
+
+```
+academy    
+-> true
+you        
+-> true
+mouse      
+-> true
+acorn      
+-> false
+nut        
+-> false
+```
+
+*Please DM me with ideas for future problems or future themed weeks. When you have completed it post a link to your solution.*
+*if you have a question about someones solution please use a thread under their posted link.*
+
+*Happy Thursday daily_programmer*
+
+Given an array of positive integers, output an array of the distinct prime factors of these integers. In other words, for each integer in the input in order, get its prime factors, sort them, and append any primes not already in the output to the output.
+
+```
+[1,2,3,4,5,6,7,8,9,10] 
+-> [2,3,5,7]
+[10,9,8,7,6,5,4,3,2,1] 
+-> [2,5,3,7]
+[100,99,98,1,2,3,4,5] 
+-> [2,5,3,11,7]
+[6,7,6,7,6,7,6,5] 
+-> [2,3,7,5]
+[8] 
+-> [2]
+```
+
+*Please DM me with ideas for future problems or future themed weeks. When you have completed it post a link to your solution.*
+*if you have a question about someones solution please use a thread under their posted link.*
+
+*Happy Tuesday daily_programmer*
+
+Write a program that tests if a word is in alphabetical order.
+
+```
+almost
+=> almost is in alphabetical order
+cereal
+=> cereal is not in alphabetical order
+```
+
+Bonus: Note if the word is in reverse order
+Here are some test cases
+```
+fiddle
+=> fiddle is not in alphabetical order
+begins
+=> begins is in alphabetical order
+chimps
+=> chimps is in alphabetical order
+wronged
+=> wronged is in reverse alphabetical order
+```
+
+*Please DM me with ideas for future problems or future themed weeks. When you have completed it post a link to your solution.*
+
+*if you have a question about someones solution please use a thread under their posted link.*
+
+*Happy Wednesday daily_programmer*
+
+Reverse Polish Notation is when a different way to write math expressions where the operators, follow the operands. For example instead of `1 + 0` you'd get `1 0 +`.
+
+Write a program that takes in Reverse Polish Notation and outputs the solution
+
+```
++ - addition
+- - subtraction
+*, x - multiplication
+/ - division (floating point, e.g. 3/2=1.5, not 3/2=1)
+// - integer division (e.g. 3/2=1)
+% - modulus, or "remainder" division (e.g. 14%3=2 and 21%7=0)
+^ - power
+! - factorial (unary operator)
+```
+
+```
+solveRPN(3,11,5,+,-)
+-> -13
+solveRPN(0.5,1,2,!,*,2,1,^,+,10,+,*)
+=> 7
+solveRPN(1,2,3,4,!,+,-,/,100,*)
+```
+
+Here is some info on Reverse Polish Notation https://en.wikipedia.org/wiki/Reverse_Polish_notation
+
+Please DM me with ideas for future problems or future themed weeks. When you have completed it post a link to your solution.
+
+
+*if you have a question about someones solution please use a thread under their posted link.*
+
+*Happy Wednesday daily_programmer*
+
+Reverse Polish Notation is when a different way to write math expressions where the operators, follow the operands. For example instead of `1 + 0` you'd get `1 0 +`.
+
+Write a program that outputs the following in Reverse Polish Notation
+```
+rpnConverter("20-18");
+=> 20 18 -
+rpnConverter(" 10 * 6 x 10 / 100");
+=> 10 6 x 10 * 100 /
+rpnConverter(" 5000         /  ((1+1) / 2) * 1000");
+=> 5000 1 1 + 2 / / 1000 *
+rpnConverter("(1 + 7 x 7 / 5 - 3  ");
+-> Mismatched parentheses
+```
+
+Here is some info on Reverse Polish Notation https://en.wikipedia.org/wiki/Reverse_Polish_notation
+
+Please DM me with ideas for future problems or future themed weeks. When you have completed it post a link to your solution.
+
+
+*if you have a question about someones solution please use a thread under their posted link.*
+
+*Happy Tuesday daily_programmer*
+
+In Chess, a knight can only move 2 squares then one square. To move a knight at position (0, 0) to position (0, 1) you have to move (2, 1), (-1, 2), (-1, -2).
+
+Write a program that takes a target location (0, 1) and outputs the number of moves to get there. Assume the knight always starts at (0, 0) and the board is unlimited in size.
+
+```
+moveKnightToLocation(3, 7)
+=> 4
+```
+
+Here is some info on chess movement https://en.wikipedia.org/wiki/Chess#Movement
+
+Please DM me with ideas for future problems or future themed weeks. When you have completed it post a link to your solution.
+
+
+*if you have a question about someones solution please use a thread under their posted link.*
+
+*Happy Monday daily_programmer*
+
+A Latin square is an n × n array filled with n different symbols, each occurring exactly once in each row and exactly once in each column. Here are 3 Latin squares:
+```
+1
+
+1 2
+2 1
+
+1 2 3
+3 1 2
+2 3 1
+```
+
+Write a program that tests if the inputs are Latin squares, it takes a `length and values`
+
+```
+isLatinSquare(5, [1,2,3,4,5,5,1,2,3,4,4,5,1,2,3,3,4,5,1,2,2,3,4,5,1])
+=> true
+isLatinSquare(4, [1,2,3,4,1,3,2,4,2,3,4,1,4,3,2,1])
+=> false
+```
+
+Please DM me with ideas for future problems or future themed weeks. When you have completed it post a link to your solution.
+
+
+*if you have a question about someones solution please use a thread under their posted link.*
+
+*Happy Friday daily_programmer*
+
+Please write a function that takes a string and returns only the alliterative substring portions of the string. If the substring contains one of the words below, they're not counted against alliteration, nor are they returned.
+
+`findAlliteration('Bugs Bunny likes to dance the slow and simple shuffle')` would return `Bugs Bunny` and `slow simple shuffle`
+```
+I
+a
+about
+an
+and
+are
+as
+at
+be
+by
+com
+for
+from
+how
+in
+is
+it
+of
+on
+or
+that
+the
+this
+to
+was
+what
+when
+where
+who
+will
+with
+the
+```
+
+Here are some sample phrases.
+```
+For the sky and the sea, and the sea and the sky
+Three grey geese in a green field grazing, Grey were the geese and green was the grazing.
+But a better butter makes a batter better.
+```
+
+
+Please DM me with ideas for future problems or future themed weeks. When you have completed it post a link to your solution.
+
+
+*if you have a question about someones solution please use a thread under their posted link. I could absolutely use some challenge problems if you have some.*
+
+*Happy Thursday daily_programmer*
+
+You will be given two string inputs. Your task is to return if they are, or are not anagrams. Additionally, please post any of your favorite anagrams because anagrams are often worthy of a smile.
+
+```
+testIfAnagram('PhillyDev', 'Veld Hi Ply');
+=> PhillyDev and Veld Hi Ply are anagrams
+testIfAnagram('DailyProgrammer', 'Darmak and Jalad at tanagra');
+=> Daily Programmer and Darmak and Jalad at tanagra are not anagrams
+```
+
+Please DM me with ideas for future problems or future themed weeks. When you have completed it post a link to your solution.
+
+*if you have a question about someones solution please use a thread under their posted link. I could absolutely use some challenge problems if you have some.*
+
+
+*Happy Wednesday daily_programmer*
+
+You need to find the area that two rectangles overlap. The section you need to output the area of would be the blue lined section here: http://i.imgur.com/brZjYe5.png
+If the two rectangles do not overlap, the resultant area should be 0.
+Input
+
+There will be two lines of input. On each line are the x and y positions (separated by a comma) of each opposing corner (each corner co-ordinate separated by a space). The co-ordinates can have decimals, and can be negative.
+Output
+
+The area of the overlapping section of the two rectangles, including any decimal part.
+
+```
+0,0 2,2
+1,1 3,3
+=> 1.0
+
+-3.5,4 1,1
+1,3.5 -2.5,-1
+=> 8.75
+
+-4,4 -0.5,2
+0.5,1 3.5,3
+=> 0.0
+```
+
+Please DM me with ideas for future problems or future themed weeks. When you have completed it post a link to your solution.
+
+*if you have a question about someones solution please use a thread under their posted link. I could absolutely use some challenge problems if you have some.*
+
+*Happy Friday daily_programmer*
+
+Your task is to construct a building which will be a pile of n cubes. The cube at the bottom will have a volume of n^3, the cube above will have volume of (n-1)^3 and so on until the top which will have a volume of 1^3.
+
+You are given the total volume m of the building. Being given m can you find the number n of cubes you will have to build?
+
+The parameter of the function findNb will be an integer m and you have to return the integer n such as n^3 + (n-1)^3 + ... + 1^3 = m if such a n exists or -1 if there is no such n.
+Examples:
+
+```
+findNb(1071225)
+--> 45
+findNb(91716553919377)
+--> -1
+```
+
+Please DM me with ideas for future problems or future themed weeks. When you have completed it post a link to your solution.
+
+*if you have a question about someones solution please use a thread under their posted link. I could absolutely use some challenge problems if you have some.*
+
+*Happy Friday daily_programmer*
+
+Write a program that finds the highest number that is less than or equal to the square root of the given number and precision. `findNearestNum(prescision, valueToBeChecked)` so `findNearestNum(0, 5)` would return *2*.
+
+_For those interested in not using MyLangsMathLib.sqrt() here's an article. https://medium.com/i-math/how-to-find-square-roots-by-hand-f3f7cadf94bb_
+
+```      
+0 7720.17
+=> 87
+1 7720.17
+=> 87.8
+2 7720.17
+=> 87.86
+```
+
+Please DM me with ideas for future problems or future themed weeks. When you have completed it post a link to your solution.
+
+*if you have a question about someones solution please use a thread under their posted link. I could absolutely use some challenge problems if you have some.*
+
+*Happy Thursday daily_programmer*
+
+Write a program that finds the nearest prime numbers. So `findNearestPrime(6)` should return 5 and 7. If you pass `findNearestPrime(11)` it should return `prime`.
+
+```      
+222
+=> 211 223
+345
+=> 337 347
+853
+=> prime
+```
+
+Please DM me with ideas for future problems or future themed weeks. When you have completed it post a link to your solution.
+
+*if you have a question about someones solution please use a thread under their posted link. I could absolutely use some challenge problems if you have some.*
+
+*Happy Wednesday daily_programmer*
+
+Modify your program so that if you pass a word like `staples` it prints a triange, otherwise it prints a box.
+
+```      
+printWord('staples')
+
+            s
+          e t
+        l   a
+      p     p  
+    a       l   
+  t         e
+s t a p l e s
+
+printWord('phillyDev')
+
+p h i l l y d e v
+h               e
+i               d
+l               y
+l               l
+y               l
+d               i
+e               h
+v e d y l l i h p
+```
+
+Please DM me with ideas for future problems or future themed weeks. When you have completed it post a link to your solution.
+
+*if you have a question about someones solution please use a thread under their posted link. I could absolutely use some challenge problems if you have some.*
+
+*Happy Tuesday daily_programmer*
+
+Write a function that outputs a boxed version of the word takes a length and width parameter. `printBoxes(philly, 2, 2)`
+
+```
+p h i l l y l l i h p
+h         l         h
+i         l         i
+l         i         l
+l         h         l
+y l l i h p h i l l y
+l         h         l
+l         i         l
+i         l         i
+h         l         l
+p h i l l y l l i h p
+```
+
+Please DM me with ideas for future problems or future themed weeks. When you have completed it post a link to your solution.
+
+*if you have a question about someones solution please use a thread under their posted link. I could absolutely use some challenge problems if you have some.*
+
+*Happy Monday daily_programmer*
+
+Write a function that outputs a boxed version of the word. The direction doesn't matter, and ideally, since I know what is tomorrows challenge is, it shouldn't matter.
+
+```
+p h i l l y d e v
+h               e
+i               d
+l               y
+l               l
+y               l
+d               i
+e               h
+v e d y l l i h p
+```
+also a great solution:
+```
+v e d y l l i h p
+e               h
+d               i
+y               l
+l               l
+l               y
+i               d
+h               e
+p h i l l y d e v
+```
+
+Please DM me with ideas for future problems or future themed weeks. When you have completed it post a link to your solution.
+
+*if you have a question about someones solution please use a thread under their posted link. I could absolutely use some challenge problems if you have some.*
+
+*Happy Friday daily_programmer*
+
+_The quick brown fox jumps over the lazy dog_ is a pangram, meaning it has one of each of the letters of the alphabet (English). Write a function that takes an unknown number of arguments, tests if they're pangrams and outputs `true` or `false ` for each.
+
+```
+testForPangram("The quick brown fox jumps over the lazy dog", "Pack my box with five dozen liquor jugs", "Saxophones quickly blew over my jazzy hair")
+=>  true
+    true
+    false
+```
+
+*Stretch challenge*
+Add an output that outputs the letter or letters that occur in highest frequency.
+```
+testForPangram("The quick brown fox jumps over the lazy dog")
+=>  true, o:4
+```
+
+Please DM me with ideas for future problems or future themed weeks. When you have completed it post a link to your solution.
+
+*if you have a question about someones solution please use a thread under their posted link. I could absolutely use some challenge problems if you have some.*
+
+*Happy Thursday daily_programmer*
+
+The input is a single number: the number at which the game starts. Write a program that plays the Threes game, and outputs a valid sequence of steps you need to take to get to 1. Each step should be output as the number you start at, followed by either -1 or 1 (if you are adding/subtracting 1 before dividing), or 0 (if you are just dividing). The last line should simply be 1.
+
+```
+100
+=> 100 -1
+=> 33 0
+=> 11 1
+=> 4 -1
+=> 1
+```
+
+Please DM me with ideas for future problems or future themed weeks. When you have completed it post a link to your solution.
+
+*if you have a question about someones solution please use a thread under their posted link. I could absolutely use some challenge problems if you have some.*
+
+*Happy Tuesday daily_programmer*
+
+`(((3)))` is an expression with too many parentheses.
+The rule for "too many parentheses" around part of an expression is that if removing matching parentheses around a section of text still leaves that section enclosed by parentheses, then those parentheses should be removed as extraneous.
+`(3)` is the proper stripping of extra parentheses in above example.
+
+`((a((bc)(de)))f)` does not have any extra parentheses. Removing any matching set of parentheses does not leave a "single" parenthesesed group that was previously enclosed by the parentheses in question.
+
+Your task is to remove the extra parentheses on the following sets and return the new set.
+
+```
+ab((c))
+=> ab(c)
+
+((a((bc)(de)))f)  
+=> ((a((bc)(de)))f)  
+
+(((zbcd)(((e)fg))))
+=> ((zbcd)((e)fg))
+```
+
+Please DM me with ideas for future problems or future themed weeks. When you have completed it post a link to your solution.
+
+*if you have a question about someones solution please use a thread under their posted link. I could absolutely use some challenge problems if you have some.*
+
+
+*Happy Tuesday daily_programmer*
+
+Take an integer use those digits to find the next largest number they can make when reshuffled.
+
+For example `findNextLargest(1729)` would return `1792`
+
+```
+1234
+=> 1243
+1243
+=> 1324
+234765
+=> 235467
+19000
+=> 90001
+```
+
+Please DM me with ideas for future problems or future themed weeks. When you have completed it post a link to your solution.
+
+*if you have a question about someones solution please use a thread under their posted link*
+
+*Happy Monday daily_programmer*
+
+Take a list of integers and concatenate them to produce the largest and smallest integer they can produce.
+
+For example `findMinMax(17 9)` would return `917 179`
+
+```
+79 82 34 83 69
+=> 3469798283 8382796934
+420 34 19 71 341
+=> 193413442071 714203434119
+17 32 91 7 46
+=> 173246791 917463217
+```
+
+Please DM me with ideas for future problems or future themed weeks. When you have completed it post a link to your solution.
+
+*if you have a question about someones solution please use a thread under their posted link*
+
+
+*Happy Friday daily_programmer*
+
+Our last problem this week is a JSON Validity tester. Write a function that tests if our JSON is valid.
 Note: By all means use a library for any daily_programmer task, this is encouraged.
 
 JSON has 6 types, `string` `number` `object` `array` `boolean` and `null`. Please write a program that takes a JSON string and outputs which types it contains.
@@ -8,11 +909,33 @@ JSON has 6 types, `string` `number` `object` `array` `boolean` and `null`. Pleas
 {
   "name": "Devin",
   "age": 38,
+<<<<<<< HEAD
+  "hasPets": true,  
+  "petNames": [
+    "Joey",
+    "Tuna",
+    "Seven"
+  ],
+  "favorites" : {
+    "colors": null,
+    "musicians": [
+      "Bad Religion",
+      "Taylor Swift"
+    ]
+  }
+}
+
+VALID
+```
+
+```
+=======
   "hasPets": true  
 }
 
 => This JSON object has strings, numbers, and booleans
 
+>>>>>>> ec1f95974c6b3c1b306dba59ba011ee31c38fa2d
 {
   "name": "Devin",
   "age": 38,
@@ -21,14 +944,206 @@ JSON has 6 types, `string` `number` `object` `array` `boolean` and `null`. Pleas
     "Joey",
     "Tuna",
     "Seven"
+<<<<<<< HEAD
+  ,
+  "favorites" : {
+    "colors": null,
+    "musicians": [
+      "Bad Religion",
+      "Taylor Swift"
+    ]
+  }
+}
+
+INVALID
+=======
   ]
 }
 
 => This JSON object has strings, numbers, booleans, and arrays
+>>>>>>> ec1f95974c6b3c1b306dba59ba011ee31c38fa2d
 ```
 
 Please DM me with ideas for future problems or future themed weeks. When you have completed it post a link to your solution.
 
+<<<<<<< HEAD
+*if you have a question about someones solution please use a thread under their posted link*
+
+*Happy Thursday daily_programmer*
+
+Our next few problems will be about JSON.
+
+Please write a function that outputs the path to the JSON value `daily_programmer`:
+
+```
+{"name": "William Shakespeare", "wife": {"birthYear": 1555, "deathYear":
+"Fun fact, she's a vampire", "name": "Anne Hathaway", "dead": false},
+"favoriteWebsites": ["dailysonneter", "daily_programmer",
+"vine (he's way into 6-second cat videos)"], "dead": true, "birthYear": 1564,
+"facebookProfile": null, "selectedWorks": [{"written": 1606, "name":
+"The Tragedy of Macbeth", "isItAwesome": true}, {"written": 1608, "name":
+"Coriolanus", "isItAwesome": "It's alright, but kinda fascist-y"}], "deathYear":
+ 1616}
+
+ => favoriteWebsites -> 1
+```
+
+```{"dlpgcack": false, "indwqahe": null, "caki": {"vvczskh": null, "tczqyzn":
+false, "qymizftua": "jfx", "cyd": {"qembsejm": [null, "daily_programmer", null],
+"qtcgujuki": 79, "ptlwe": "lrvogzcpw", "jivdwnqi": null, "nzjlfax": "xaiuf",
+"cqajfbn": true}, "kbttv": "dapsvkdnxm", "gcfv": 43.25503357696589}, "cfqnknrm":
+null, "dtqx": "psuyc", "zkhreog": [null, {"txrhgu": false, "qkhe": false,
+"oqlzgmtmx": "xndcy", "khuwjmktox": 48, "yoe": true, "xode": "hzxfgvw",
+"cgsciipn": 20.075297532268902}, "hducqtvon", false, [null, 76.8463226047357,
+"qctvnvo", null], [null, {"nlp": false, "xebvtnvwbb": null, "uhfikxc": null,
+"eekejwjbe": false, "jmrkaqky": null, "oeyystp": false}, [null, 10, "nyzfhaps",
+71, null], 40, null, 13.737832677566875], [true, 80, 20, {"weynlgnfro":
+40.25989193717965, "ggsirrt": 17, "ztvbcpsba": 12, "mljfh": false, "lihndukg":
+"bzebyljg", "pllpche": null}, null, [true, false, 52.532666161803895, "mkmqrhg",
+ "kgdqstfn", null, "szse"], null, {"qkhfufrgac": "vpmiicarn", "hguztz":
+ "ocbmzpzon", "wprnlua": null}], {"drnj": [null, false], "jkjzvjuiw": false,
+ "oupsmgjd": false, "kcwjy": null}]}
+
+ => caki -> cyd -> qembsejm -> 1
+```
+
+Please DM me with ideas for future problems or future themed weeks. When you have completed it post a link to your solution.
+
+*if you have a question about someones solution please use a thread under their posted link*
+
+*Happy Monday daily_programmer*
+
+Our next few problems will be about JSON.
+
+JSON isn't always the easiest to read.
+
+```
+{ "name": "Devin", "age": 38, "hasPets": true, "petNames": [ "Joey","Tuna","Seven" ], "favorites" : { "colors": null, "musicians": [ "Bad Religion", "Taylor Swift"] }}
+```
+
+Please write a function that takes a JSON Object and prints it in a more human readable way.
+
+```
+{
+  "name": "Devin",
+  "age": 38,
+  "hasPets": true,  
+  "petNames": [
+    "Joey",
+    "Tuna",
+    "Seven"
+  ],
+  "favorites" : {
+    "colors": null,
+    "musicians": [
+      "Bad Religion",
+      "Taylor Swift"
+    ]
+  }
+}
+```
+
+Please DM me with ideas for future problems or future themed weeks. When you have completed it post a link to your solution.
+
+*if you have a question about someones solution please use a thread under their posted link*
+
+*Happy Monday daily_programmer*
+
+Our next few problems will be about JSON.
+
+The following data is being represented as XML. Please output it as JSON.
+
+```
+<particpants>
+    <particpant>
+        <firstName>Michael</firstName> <lastName>Flynn</lastName>
+    </particpant>
+    <particpant>
+        <firstName>Mika</firstName> <lastName>Lucchini</lastName>
+    </particpant>
+    <particpant>
+        <firstName>Ryan</firstName> <lastName>McDevitt</lastName>
+    </particpant>
+</particpants>
+```
+
+```
+{"particpants":[
+    { "firstName":"Michael", "lastName":"Flynn" },
+    { "firstName":"Mika", "lastName":"Lucchini" },
+    { "firstName":"Ryan", "lastName":"McDevitt" }
+]}
+```
+
+Please DM me with ideas for future problems or future themed weeks. When you have completed it post a link to your solution.
+
+*if you have a question about someones solution please use a thread under their posted link*
+
+*Happy Friday daily_programmer*
+
+This is part five of a multi part challenge. If you've made it this far great! If you're joining late, feel free to modify someone else's code.
+
+Please modify your code to make an alert when a ship has been sunk. *Note I used b for clarity*
+
+```
+   1   2   3   4   5   6   7   8   9  10
+a  u   u   u   u   u   u   u   u   u   u
+b  u   e   u   u   u   e   u   u   u   u
+c  u   u   u   u   u   u   u   h   u   u
+e  u   u   e   u   u   u   u   u   u   u
+f  u   u   u   u   u   u   u   u   u   u
+g  u   u   u   u   u   u   u   u   u   u
+h  u   u   u   e   u   b   b   b   b   u
+i  u   u   u   u   u   u   u   u   u   u
+j  u   u   u   u   u   u   u   u   u   u
+
+----- You've sunk my Battleship --------
+```
+
+Extra credit: Build it as a turn based game.
+
+Please DM me with ideas for future problems or future themed weeks. When you have completed it post a link to your solution.
+
+*if you have a question about someones solution please use a thread under their posted link*
+
+*Happy Thursday daily_programmer*
+
+This is part four of a multi part challenge.
+
+Battleship is turn based. Please write a function that creates an `both yours and an opponents` board, the more random the board the better, with ships of the following types:
+
+```
+# Class of ship Size
+1 Carrier          5
+2 Battleship       4
+2 Cruiser          3
+2 Destroyer        2
+```
+
+Then allows playerOne and playerTwo to have guess spaces, marking them either `e` or `h`
+
+Your game should have functions similar in use case as these:
+createPlayerBoard('playerOne')
+createPlayerBoard('playerTwo')
+printMyBoard()
+printOppenentBoard() // opponents board should not show where the ship is but should show past guesses.
+
+```
+createPlayerBoard('playerOne')
+createPlayerBoard('playerTwo')
+printMyBoard()
+printOppenentBoard()
+guessLocation('4', 'h')
+
+   1   2   3   4   5   6   7   8   9  10
+a  u   u   u   u   u   u   u   u   u   u
+b  u   e   u   u   u   e   u   u   u   u
+c  u   u   u   u   u   u   u   u   u   u
+e  u   u   e   u   u   u   u   u   u   u
+f  u   u   u   u   u   u   u   u   u   u
+g  u   u   u   u   u   u   u   u   u   u
+h  u   u   u   e   u   h   h   u   u   u
+=======
 *if you have a question about someones solution please use a thread under their posted link
 
 *Happy Wednesday daily_programmer*
@@ -117,6 +1232,7 @@ e  u   u   u   u   u   u   u   u   u   u
 f  u   u   u   u   u   u   u   u   u   u
 g  u   u   u   u   u   u   u   u   u   u
 h  u   u   u   u   u   u   u   u   u   u
+>>>>>>> ec1f95974c6b3c1b306dba59ba011ee31c38fa2d
 i  u   u   u   u   u   u   u   u   u   u
 j  u   u   u   u   u   u   u   u   u   u
 
@@ -124,6 +1240,119 @@ j  u   u   u   u   u   u   u   u   u   u
 
 Please DM me with ideas for future problems or future themed weeks. When you have completed it post a link to your solution.
 
+<<<<<<< HEAD
+*if you have a question about someones solution please use a thread under their posted link*
+
+
+*Happy Friday daily_programmer*
+
+Write a program that condenses a string input whenever possible.
+
+```
+input => I heard the pastor sing live verses easily.
+output => I heard the pastor sing liverses easily.
+```
+
+```
+Deep episodes of Deep Space Nine came on the television only after the news.
+Deepisodes of Deep Space Nine came on the televisionly after the news.
+
+Digital alarm clocks scare area children.
+Digitalarm clockscarea children.
+```
+
+Please DM me with ideas for future problems or future themed weeks. When you have completed it post a link to your solution.
+
+*if you have a question about someones solution please use a thread under their posted link*
+
+*Happy Thursday daily_programmer*
+
+Make a spiral that begins with 1 and starts from the top left, going towards the right, and ends with the square of that number.
+
+```
+5
+
+// ----->
+1   2  3  4 5  // |
+16 17 18 19 6  // |
+15 24 25 20 7  // |
+14 23 22 21 8  // V
+13 12 11 10 9  //
+// < --------
+
+
+4
+
+1   2  3  4
+12 13 14  5
+11 16 15  6
+10  9  8  7
+```
+
+Bonus points for getting the spacing right.
+
+Please DM me with ideas for future problems or future themed weeks. When you have completed it post a link to your solution.
+
+*if you have a question about someones solution please use a thread under their posted link*
+
+*Happy Tuesday daily_programmer!*
+
+Today is another familiar problem found in r/dailyprogrammer. In computational complexity theory, the 3SUM problem asks if a given set of n real numbers contains three elements that sum to zero. A naive solution works in O(N2) time, and research efforts have been exploring the lower complexity bound for some time now. You will be given a list of integers, one set per line.
+
+```
+9 -6 -5 9 8 3 -4 8 1 7 -4 9 -9 1 9 -9 9 4 -6 -8
+```
+
+Your program should emit triplets of numbers that sum to 0. Example:
+```
+-9 1 8
+-8 1 7
+-5 -4 9
+-5 1 4
+-4 1 3
+-4 -4 8
+```
+
+Here are some challenge inputs and outputs
+```
+4 5 -1 -2 -7 2 -5 -3 -7 -3 1
+-1 -6 -3 -7 5 -8 2 -8 1
+-5 -1 -4 2 9 -9 -6 -1 -7
+
+//outputs
+-7 2 5
+-5 1 4
+-3 -2 5
+-3 -1 4
+-3 1 2
+
+-7 2 5
+-6 1 5
+-3 1 2
+
+-5 -4 9
+-1 -1 2
+```
+
+Please DM me with ideas for future problems or future themed weeks. When you have completed it post a link to your solution.
+
+*Happy Thursday daily_programmer!*
+
+Today continues a multi-step daily_programmer, please modify yours or someone else's program to do the following.
+
+Part 2: Ingredients
+
+Create a pantry full of all the ingredients (3 of each seems good). When you use a recipe subtract 1 from all the ingredients. If any ingredients in the are fewer than 2, when you call `pantry.getShoppingList()` it should return a list of what you need.
+
+```
+pantry = new Pantry;
+addNewRecipe(blueberryPancakes);
+getIngredients(overnightOats);
+=> Flour, blueberries, eggs, milk, baking soda, sugar
+addNewRecipe(overnightOats);
+getIngredients(overnightOats);
+=> Oats, blueberries, almond milk, pecans
+=======
 *if you have a question about someones solution please use a thread under their posted link
 
 **Happy Friday daily_programmer*
@@ -143,12 +1372,83 @@ addNewRecipe(overnightOats);
 pantry.remove(blueberries, 2);
 getIngredients(overnightOats);
 => Oats, strawberries, almond milk, pecans
+>>>>>>> ec1f95974c6b3c1b306dba59ba011ee31c38fa2d
 pantry.getShoppingList();
 => Blueberries
 ```
 
 Please DM me with ideas for future problems or future themed weeks. When you have completed it post a link to your solution.
 
+<<<<<<< HEAD
+*Happy Wednesday daily_programmer!*
+
+Today begins a multi-step daily_programmer.
+
+Part 1: Recipes
+
+Write a program that can take in recipes and return the list of ingredients for the requested recipe:
+
+```
+addNewRecipe(sausageAndPeppers);
+addNewRecipe(overnightOats);
+getIngredients(overnightOats);
+=> Oats, blueberries, almond milk, pecans
+getIngredients(sausageAndPeppers);
+=> Sausage, sweet onions, garlic, olive oil, peppers
+```
+
+Please DM me with ideas for future problems or future themed weeks. When you have completed it post a link to your solution.
+
+*if you have a question about someones solution please use a thread under their posted link*
+
+*Happy Friday daily_programmer!*
+
+Given an array of integers, return indices of the two numbers such that they add up to a specific target.
+
+You may assume that any solution will do, and you may not use the same element twice.
+
+```
+returnNumbers([3, 7, 8, 11], 18)
+=> 7, 11
+returnNumbers([5, 4, 9, 44], 14)
+=> 5, 9
+returnNumbers([2, 4, 7, 5], 9)
+=> 5, 4
+or
+=> 2, 7
+```
+
+Please DM me with ideas for future problems or future themed weeks. When you have completed it post a link to your solution.
+
+*if you have a question about someones solution please use a thread under their posted link*
+
+*Happy Thursday daily_programmer!*
+
+This challenge is based off the British tv game show "Countdown". The rules are pretty simple: Given a set of numbers X1-X5, calculate using mathematical operations to solve for Y. You can use addition, subtraction, multiplication, or division. Unlike "real math", the standard order of operations (PEMDAS) is not applied here. Instead, the order is determined left to right.
+
+The user should input any 6 whole numbers and the target number. E.g.
+
+`1 3 7 6 8 3 250`
+
+The output should be the order of numbers and operations that will compute the target number. E.g.
+
+`3+8*7+6*3+1=250`
+
+Note that if follow PEMDAS you get:
+
+`3+8*7+6*3+1 = 78`
+
+But remember our rule - go left to right and operate. So the solution is found by:
+`(((((3+8)*7)+6)*3)+1) = 250`
+
+```
+25 100 9 7 3 7 881
+returns 7 * 3 + 100 * 7 + 25 + 9 = 881
+
+6 75 3 25 50 100 952
+returns 100 + 6 * 3 * 75 - 50 / 25 = 952
+```
+=======
 *if you have a question about someones solution please use a thread under their posted link*
 
 *Happy Wednesday Daily Programmer*
@@ -169,11 +1469,117 @@ Please validate the following scores:
 -11
 -13
 
+>>>>>>> ec1f95974c6b3c1b306dba59ba011ee31c38fa2d
 
 Please DM me with ideas for future problems or future themed weeks. When you have completed it post a link to your solution.
 
 *if you have a question about someones solution please use a thread under their posted link*
 
+<<<<<<< HEAD
+*Happy actually Wednesday this time daily_programmer!*
+
+For this challenge we will be using the tile set from the English edition, which has 100 tiles total. Here's a reference for the distribution and point value of each tile.
+Each tile will be represented by the letter that appears on it, with the exception that blank tiles are represented by underscores `_`.
+
+The tiles already in play are inputted as an uppercase string. For example, if 14 tiles have been removed from the bag and are in play, you would be given an input like this:
+
+`AEERTYOXMCNB_S`
+
+You should output the tiles that are left in the bag. The list should be in descending order of the quantity of each tile left in the bag, skipping over amounts that have no tiles.
+In cases where more than one letter has the same quantity remaining, output those letters in alphabetical order, with blank tiles at the end.
+```
+10: E
+9: I
+8: A
+7: O
+5: N, R, T
+4: D, L, U
+3: G, S
+2: F, H, P, V, W
+1: B, C, J, K, M, Q, Y, Z, _
+0: X
+```
+If more tiles have been removed from the bag than possible, such as 3 Qs, you should give a helpful error message instead of printing the list.
+
+```
+PQAREIOURSTHGWIOAE_
+LQTOONOEFFJZT
+AXHDRUIOR_XHJZUQEE
+```
+```
+10: E
+7: A, I
+6: N, O
+5: T
+4: D, L, R
+3: S, U
+2: B, C, F, G, M, V, Y
+1: H, J, K, P, W, X, Z, _
+0: Q
+```
+```
+2.
+11: E
+9: A, I
+6: R
+5: N, O
+4: D, S, T, U
+3: G, L
+2: B, C, H, M, P, V, W, Y, _
+1: K, X
+0: F, J, Q, Z
+3.
+```
+```
+Invalid input. More X's have been taken from the bag than possible.
+```
+
+Please DM me with ideas for future problems or future themed weeks. When you have completed it post a link to your solution.
+
+*if you have a question about someones solution please use a thread under their posted link*
+
+*Happy Monday daily_programmer*
+
+Given a bowling game as an array of comma delimited throws, calculate total score.
+
+Bowling Scores are given by the following.
+
+If you do not get all of the pins in the frame, you get the number of pins as your score for that frame. If you get all of the pins on your first try (a strike; denoted as "X"), you get 10 + the total of the next 2 *throws*. A Spare (denoted "/") is 10 + the next throw. If Strike or Spare on the last frame, you get another throw, up to 3 total for all strikes.
+
+```
+calculateScore(["X", "X", "X", "X", "X", "X", "X", "X", "X", "X", "XXX"]) -> 300
+calculateScore(["X", "X", "X", "X", "X", "X", "X", "X", "X", "X", "XX9"]) -> 299
+calculateScore(["9,/", "9,/", "9,/", "9,/", "9,/", "9,/", "9,/", "9,/", "9,/", "9,/,9"]) -> 190
+calculateScore(["1,/", "1,/", "1,/", "1,/", "1,/", "1,/", "1,/", "1,/", "1,/", "1,/,1"]) -> 110
+calculateScore(["1,/", "1,/", "1,/", "1,/", "1,/", "1,/", "1,/", "1,/", "1,/", "1,/,1"]) -> 110
+calculateScore(["X", "9,/", "X", "9,/", "X", "9,/", "X", "9,/", "X", "9,/,X"]) -> 200
+calculateScore(["X", "9,/", "X", "9,/", "X", "9,/", "X", "9,/", "X", "9,/,X"]) -> 200
+calculateScore(["6,3", "7,2", "8,1", "9,0", "X", "5,4", "6,3", "7,2", "8,1", "9,0"]) -> 100
+```
+
+You can find more on scoring and verify more results at http://www.bowlinggenius.com/
+
+Please DM me with ideas for future problems or future themed weeks. When you have completed it post a link to your solution.
+
+*if you have a question about someones solution please use a thread under their posted link*
+
+*Happy Friday Daily Programmer*
+
+A file I/O Question today.
+
+Write a program that validates phone numbers fit one of the following two formats.
+
+```
+(xxx) xxx-xxxx
+xxx-xxx-xxxx
+```
+
+This file (https://github.com/aisflat439/dailyProgrammer/blob/master/data/phoneNumbers.txt) should return:
+
+```
+987-123-4567
+(123) 456-7890
+=======
 *Happy Wednesday Daily Programmer*
 
 Write a program that takes an array of strings and outputs them rows with `x` as a fill letter. If the string ends with `x` like `fox` the next fill letter should become `z`.
@@ -187,6 +1593,7 @@ cowxx
 foxzx
 hound
 fishx
+>>>>>>> ec1f95974c6b3c1b306dba59ba011ee31c38fa2d
 ```
 
 Please DM me with ideas for future problems or future themed weeks. When you have completed it post a link to your solution.
@@ -204,7 +1611,7 @@ Write a program that validates phone numbers fit one of the following two format
 xxx-xxx-xxxx
 ```
 
-This file () should return:
+This file (https://github.com/aisflat439/dailyProgrammer/blob/master/data/phoneNumbers.txt) should return:
 
 ```
 987-123-4567

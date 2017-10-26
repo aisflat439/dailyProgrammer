@@ -1,3 +1,296 @@
+*Happy Monday daily_programmer*
+
+Write a function that reverses words in place
+
+`reverseWords("I don't know about you, but I'm feeling 22")`
+
+`22 feeling i'm but ,you about know don't I`
+
+```
+"oh yeah! I want to bask in your golden light"
+=> "light golden your in bask to want I !yeah oh"
+"baby you got me checkin in my rearview mirror"
+=> "mirror rearview my in checkin me got you baby"
+"Our days and nights are perfumed with obsession"
+=> "obsession with perfumed are nights and days our"
+```
+
+*Please DM me with ideas for future problems or future themed weeks. When you have completed it post a link to your solution.*
+*if you have a question about someones solution please use a thread under their posted link.*
+
+*Happy Wednesday daily_programmer*
+
+Write a function that converts a string into a zigzag
+
+`convertZigZag("dailyprogrammer)`
+
+```
+d y g m
+alpogamr
+i r r e
+```
+
+*Please DM me with ideas for future problems or future themed weeks. When you have completed it post a link to your solution.*
+*if you have a question about someones solution please use a thread under their posted link.*
+
+*Happy Wednesday daily_programmer*
+
+Special thanks to Tom for submitting this challenge. 
+
+Given a list of space separated words and a number indicating words per line, try to line up words by matching letters.
+
+`spaceByLetter("some body once told me the world was gonna roll me", 3)` => 
+
+```
+some body once
+told        me the
+world             was gonna
+roll                       me
+
+some-body-once
+told--------me-the
+world-------------was-gonna
+roll-----------------------me
+```
+
+*Please DM me with ideas for future problems or future themed weeks. When you have completed it post a link to your solution.*
+*if you have a question about someones solution please use a thread under their posted link.*
+
+*Happy Tuesday daily_programmer*
+
+Please write a function that returns the product of all the other numbers in the array.
+
+`findAllOtherProducts([1,7,3,4])` => 
+
+`[7 * 3 * 4,  1 * 3 * 4,  1 * 7 * 4,  1 * 7 * 3]` =>
+
+`[84, 12, 28, 21]`
+
+*Please DM me with ideas for future problems or future themed weeks. When you have completed it post a link to your solution.*
+*if you have a question about someones solution please use a thread under their posted link.*
+
+*Happy Monday daily_programmer*
+
+Please write a program that outputs 1 - 777 but replacing every value that contains a 7 or is evenly divisible by 7.
+
+```
+*parens added for clarity*
+
+1 2 3 4 5 6 ( ) 8 9 10 11 12 13 ( ) 15 16 ( ) 18 ...
+```
+
+*Please DM me with ideas for future problems or future themed weeks. When you have completed it post a link to your solution.*
+*if you have a question about someones solution please use a thread under their posted link.*
+
+*Happy Friday daily_programmer*
+
+Different sort problem not using the drop sort. Sorry to those looking forward to it.
+
+`[10, 2, 3, 4, 7]` can be sorted by rotating the array in one direction. 
+
+```
+[10, 2, 3, 4, 7]
+[7, 10, 2, 3, 4]
+[4, 7, 10, 2, 3]
+[3, 4, 7, 10, 2]
+[2, 3, 4, 7, 10]
+```
+Write a program that sorts an array this way, or outputs false.
+
+```
+[3, 2, 1] => false
+[4, 1, 2, 3] => [1, 2, 3, 4]
+[5, 3, 9, 2, 6, 7] => false
+[75, 230, 30, 42, 50] => [30, 42, 50, 75, 230]
+```
+
+*Please DM me with ideas for future problems or future themed weeks. When you have completed it post a link to your solution.*
+*if you have a question about someones solution please use a thread under their posted link.*
+
+*Happy Thursday daily_programmer*
+
+Write a program sorts an array by dropping the previously sorted value.
+
+`[1, 2, 5, 4, 3, 7]` =>
+
+`[1, 2, 5, 7], [4], [3]`
+ 
+
+```
+ 10, 13, 17, 21 =>
+10, 13, 17, 21
+10, 10, 10, 9, 10 =>
+[10, 10, 10, 10], 9
+```
+
+*Please DM me with ideas for future problems or future themed weeks. When you have completed it post a link to your solution.*
+*if you have a question about someones solution please use a thread under their posted link.*
+
+*Happy Wednesday daily_programmer*
+
+Write a program sorts an array by subtracting -1 from the elements that preceed it until it's smaller than the element that proceeds it.
+
+`10 5 7 6 1` =>
+
+`4 5 7 6 1` => index[0] is smaller than 5 now
+
+`2 3 5 6 1` => index[0] is smaller than index[1] smaller than index[2]...
+
+Finally we get to `-4 -3 -1 0 1`
+
+```
+ 3 2 1 =>
+-1 0 1
+1 1 1 1 1 1 1 1 1 =>
+-7 -6 -5 -4 -3 -2 -1 0 1 
+5 7 11 6 16 2 9 16 6 16 => 
+-27 -25 -21 -20 -10 -9 -2 5 6 16
+```
+
+*Please DM me with ideas for future problems or future themed weeks. When you have completed it post a link to your solution.*
+*if you have a question about someones solution please use a thread under their posted link.*
+
+*Happy Tuesday daily_programmer*
+
+Write a program that collapses an input string
+
+```
+dailyprogrammer
+phillydev
+fun
+```
+becomes
+
+```
+dai
+philyprog
+funllydevrammer
+```
+
+*Please DM me with ideas for future problems or future themed weeks. When you have completed it post a link to your solution.*
+*if you have a question about someones solution please use a thread under their posted link.*
+
+*Happy Monday daily_programmer*
+
+Write a program that outputs `Hello World!`
+
+```
+should not use any character more than twice (alphanumeric, symbol, whitespace...anything)
+=> `print(  )' has an r and console.log(  ) has 3 o's`
+should not use any external resources
+should not use any user input
+should not output anything else
+```
+
+*Please DM me with ideas for future problems or future themed weeks. When you have completed it post a link to your solution.*
+*if you have a question about someones solution please use a thread under their posted link.*
+
+*Happy Friday daily_programmer*
+
+Write a program that takes an array and adds one, adds zero, subtracts one, and adds zero to an array, until the array is adjusted
+
+`adjustEachItem([3, 0, 4, 1, -1])` becomes
+
+`[4, 0, 3, 1, 0]`
+
+```
+[1] => 
+[2]
+[0, 0, 0, 0, 0] =>
+[1, 0, -1, 0, 1]
+[-4, 3, 0, 1, 7, 9, 8, -2, 11, -88] =>
+[-3, 3, -1, 1, 8, 9, 7, -2, 12, -88]
+```
+
+*Please DM me with ideas for future problems or future themed weeks. When you have completed it post a link to your solution.*
+*if you have a question about someones solution please use a thread under their posted link.*
+
+*Happy Thursday daily_programmer*
+
+Write a program that takes an array of integers or chars and sorts the `ints` in ascending order and the `chars` in decending order but keeps the corresponding items in the same position within the array.
+
+`acdcSort([a, 3, b, 2, c, 1])` becomes
+
+`[c, 1, b, 2, a, 3]`
+
+```
+[ 3, 2, 1] 
+=> [ 1, 2, 3 ]
+[ 'a', 'b', 'c' ] 
+=> [ 'c', 'b', 'a' ]
+[5, 'a', 'x', 3, 6, 'b']
+=> [3, 'x', 'b', 5, 6, 'a']
+```
+
+*Please DM me with ideas for future problems or future themed weeks. When you have completed it post a link to your solution.*
+*if you have a question about someones solution please use a thread under their posted link.*
+
+*Happy Wednesday daily_programmer*
+
+Write a program that sums an array in a circular shift.
+
+`circularShift([2, 4, 6, -2], 3)` becomes
+
+`=> [ [-2 + 2 + 4], [2 + 4 + 6], [4 + 6 + -2], [6 + -2 + 2] ]` and then
+
+`=> [4, 12, 8, 6]`
+
+```
+circularShift([1, 2], 5 )
+=> [7, 8]
+circularShift([-5, 4, 0, 1, 0, -10, -4], 4 )
+=> [-19, -15, -5, 0, 5, -9, -13]
+circularShift([2], 7  )
+=> [14]
+```
+
+*Please DM me with ideas for future problems or future themed weeks. When you have completed it post a link to your solution.*
+*if you have a question about someones solution please use a thread under their posted link.*
+
+*Happy Tuesday daily_programmer*
+
+Write a program that zips two arrays taking the higher number, if the numbers are equal, add them.
+
+`zipSum([1, 2.4, 3], [7, 2.4, 3])` becomes
+
+`=> [[1, 7], [2.4, 2.4], [1, 3]]` and then
+
+`=> [7, 4.8, 3]`
+
+```
+zipSum([1, 2, 3], [1, 3, 2])
+=> [2, 3, 3]
+zipSum([1,2,3,4,5,5,7,8,9,10], [10,9,8,7,6,5,4,3,2,1])
+=> [10, 9, 8, 7, 6, 10, 7, 8, 9, 10]
+zipSum([], [])
+=> []
+```
+
+*Please DM me with ideas for future problems or future themed weeks. When you have completed it post a link to your solution.*
+*if you have a question about someones solution please use a thread under their posted link.*
+
+*Happy Monday daily_programmer*
+
+Write a program that rechunks an array in sets of the value passed, sums the sets, and returns one array.
+
+`rechunk([1, 2], 3)`
+
+`=> [[1, 0, 0], [2, 0, 0], [0, 0, 0]]`
+
+`=> [1, 2, 0]`
+
+```
+rechunk([1], 3)
+=> [1, 0, 0]
+rechunck([-7,4,-12,1,5,-3,12,0,14,-2], 4)
+=> [12,-1,0,1]
+rechunk([1,2,3,4,5,6,7,8,9], 3)
+=> [12,15,18]
+```
+
+*Please DM me with ideas for future problems or future themed weeks. When you have completed it post a link to your solution.*
+*if you have a question about someones solution please use a thread under their posted link.*
+
 *Happy Friday daily_programmer*
 
 Write a program that takes a string and outputs a the zero based index of that string.

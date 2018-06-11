@@ -1,3 +1,29 @@
+*Happy Mondayx daily_programmer*
+
+iOS 11 has a bug that makes the result of 1+2+3 to be 24. This is related to the animation speed, but anyway:
+
+The task is to make 1 + 2 + 3 == 24. But only that. So you should provide a function that correctly sums most sequences but returns 24 when the arguments are 1, 2 and 3 in any order.
+
+```
+1 2 => 3
+3 4 => 7
+1 2 3 4 5 6 7 8 9 => 45
+3 2 1 => 24
+2 1 3 => 24
+1 1 => 2
+1 2 3 => 24
+40 2 => 42
+1 2 2 4 => 9
+1 2 3 4 1 2 3 => 16
+1 => 1
+1 23 => 24
+0 1 2 => 3
+3 2 3 => 8
+```
+
+*Please DM me with ideas for future problems or future themed weeks. When you have completed it post a link to your solution.*
+*if you have a question about someones solution please use a thread under their posted link.*
+
 *Happy Friday daily_programmer*
 
 Write a program that takes a string and outputs a the zero based index of that string.
@@ -6,7 +32,7 @@ Write a program that takes a string and outputs a the zero based index of that s
 
 ```
 d 6
-e 7
+e 72
 i 2
 l 3 4
 p 0

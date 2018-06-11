@@ -1,5 +1,38 @@
 *Happy Thursday Daily Programmer*
 
+Some of you maybe already solved this _cough_ mika _cough_ noah _cough_ nonetheless...
+
+Given an array find all unique quadruplets in the array which gives the sum of target.
+
+findSetsOfFour([1, 0, -1, 0, -2, 2], 0)
+
+```
+[-1,  0, 0, 1]
+[-2, -1, 1, 2]
+[-2,  0, 0, 2]
+```
+When you have completed it post a link to your solution.
+*if you have a question about someones solution please use a thread under their posted link*
+
+*Happy Wednesday Daily Programmer*
+
+Lots of new people joined. Welcome.
+
+Given an array find all unique triplets in the array which gives the sum of target.
+
+findSetsOfThree([-1, 0, 1, 2, -1, -4], 0)
+
+```
+[-1, 0, 1]
+[-1, -1, 2]
+```
+When you have completed it post a link to your solution.
+*if you have a question about someones solution please use a thread under their posted link*
+
+Please DM me with ideas for future problems or future themed weeks. 
+
+*Happy Thursday Daily Programmer*
+
 Find the nth digit of the infinite integer sequence 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, ...
 
 The 11th digit of the sequence 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, ... is a 0, which is part of the number 10.

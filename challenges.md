@@ -1,3 +1,179 @@
+*Happy Friday daily_programmer*
+
+Given two sets of favorite musical artists, return the artists that overlap and thier total score, with a match multiplier. if both sets have the genre in the same position, that is a match. All genres will always have 3 artists. All sets have 4 genres.
+
+Multiplier pop genre (4x) _Pop and Pop top row_  
+taylor swift 4 (2, 2), lorde 2 (1, 1)    
+pop genre total 6  
+pop genre match with multiplier 24  
+rock multiplier none _not in same row_  
+rock genre total (0, 2)  
+rock genre match with multiplier 2  
+
+```
+returnOverlap(
+  [
+    {
+        "pop": ["taylor swift, lorde, micheal jackson"],
+        "rock": ["tom waits, guns and roses, bruce springsteen"],
+        "rap": ["tupac shakur, biggie smalls, eminem"],
+        "rnb": ["d'angelo, marvin gaye, ashford and simpson"]
+    },
+    {
+        "pop": ["taylor swift, lorde, maddona"],
+        "rnb": ["otis redding, marvin gaye, al green"],
+        "rap": ["tupac shakur, biggie smalls, eminem"],
+        "rock": ["bruce springsteen, foo fighters, nirvana"]
+    }
+]
+);
+
+=> Output
+pop = 24, rock = 2 ...
+```
+
+*Please DM me with ideas for future problems or future themed weeks. When you have completed it post a link to your solution.*
+*if you have a question about someones solution please use a thread under their posted link.*
+
+*Happy Thursday daily_programmer*
+
+Today and tomorrow are a two part set.
+
+Given two sets of favorite musical artists, return the artists that overlap and thier total indexed score. We're going to expand this problem a bit tomorrow.
+
+```
+returnOverlap(
+  ['taylor swift', 'tom waits', 'regina spektor', 'public enemy', 'claude debussy']
+  ['tupac shakur', 'taylor swift', 'sergei rachmaninoff', 'tom waits', 'super unison']
+);
+// scores
+// taylor swift (0, 1), 
+// tom waits (1, 3)
+
+=> taylor swift (1), tom waits (4)
+```
+
+*Please DM me with ideas for future problems or future themed weeks. When you have completed it post a link to your solution.*
+*if you have a question about someones solution please use a thread under their posted link.*
+
+*Happy Tuesday daily_programmer*
+
+Given 2 states, a prev and current. Take the diff of them, and then get only the left hand diff.
+
+```
+prev = {
+	a: 3,
+	b: 4,
+	c: {
+		d:[1,2,3]
+		e:5
+	}
+};
+
+cur = {
+	a: 6,
+	b: 4,
+	c: {
+		d:[1,5,3]
+		e:5
+	}
+};
+
+leftHandDiff = {
+	a: 3,
+	c: {
+		d:[1,2,3]
+	}
+};
+```
+
+*Please DM me with ideas for future problems or future themed weeks. When you have completed it post a link to your solution.*
+*if you have a question about someones solution please use a thread under their posted link.*
+
+
+I had to do a fun task today that may qualify daily programmer.
+Given 2 states, a prev and current.
+Take the diff of them,
+and then get only the left hand diff. (edi
+
+prev = {
+	a: 3,
+	b: 4,
+	c: {
+		d:[1,2,3]
+		e:5
+	}
+};
+
+cur = {
+	a: 6,
+	b: 4,
+	c: {
+		d:[1,5,3]
+		e:5
+	}
+};
+
+leftHandDiff = {
+	a: 3,
+	c: {
+		d:[1,2,3]
+	}
+};
+
+
+*Happy Monday daily_programmer*
+
+The pancake sorting algorithm is uses a single method, which takes an array, and an index, and reverses the order of the elements up until that index
+
+Write an implementation of the pancake sorting algorithm (aka the prefix sorting algorithm) that returns the states after each flip.
+
+```
+pancakeSort([2,4,3,1]) =>
+[4,2,3,1]
+[3,2,4,1]
+[2,3,4,1]
+[4,3,2,1]
+[1,2,3,4]
+```
+
+*Please DM me with ideas for future problems or future themed weeks. When you have completed it post a link to your solution.*
+*if you have a question about someones solution please use a thread under their posted link.*
+
+*Happy Monday daily_programmer*
+
+The pancake sorting algorithm is uses a single method, which takes an array, and an index, and reverses the order of the elements up until that index
+
+Write an implementation of the pancake sorting algorithm (aka the prefix sorting algorithm) that returns the states after each flip.
+
+```
+pancakeSort([2,4,3,1]) =>
+[4,2,3,1]
+[3,2,4,1]
+[2,3,4,1]
+[4,3,2,1]
+[1,2,3,4]
+```
+
+*Please DM me with ideas for future problems or future themed weeks. When you have completed it post a link to your solution.*
+*if you have a question about someones solution please use a thread under their posted link.*
+
+*Happy Friday daily_programmer*
+
+Write a program to test if string input is can be constructed by taking a substring of itself appended together.
+
+```
+abab => 
+true // the substring is ab and it can be found twice
+yxy =>
+false // yxyx !== yxy && xyxy !== yxy
+abcabcabcabc => 
+true // substring abc 4 times and abcabc 2 times
+```
+
+*Please DM me with ideas for future problems or future themed weeks. When you have completed it post a link to your solution.*
+*if you have a question about someones solution please use a thread under their posted link.*
+
 *Happy Monday daily_programmer*
 
 Write a function that reverses words in place

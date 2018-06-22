@@ -1,0 +1,20 @@
+[
+    {
+        "pop": ["taylor swift, lorde, micheal jackson"],
+        "rock": ["tom waits, guns and roses, bruce springsteen"],
+        "rap": ["tupac shakur, biggie smalls, eminem"],
+        "rnb": ["d'angelo, marvin gaye, ashford and simpson"]
+    },
+    {
+        "rnb": ["prince, d'angelo, otis redding"],
+        "pop": ["katy perry, taylor swift, maddona"],
+        "rock": ["van halen, metallica, bruce springsteen"],
+        "rap": ["fifty cent, tupac shakur, eminem"]
+    },
+    {
+        "pop": ["taylor swift, lorde, maddona"],
+        "rnb": ["otis redding, marvin gaye, al green"],
+        "rap": ["tupac shakur, biggie smalls, eminem"],
+        "rock": ["nirvana, foo fighters, bruce springsteen"]
+    }
+]
